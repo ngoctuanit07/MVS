@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Cart
+END
+Info.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Cart/Info.php
+END
+CartTotals.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Cart/CartTotals.php
+END
+Totals.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Cart/Totals.php
+END
+Items.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Cart/Items.php
+END
+Crosssell.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Cart/Crosssell.php
+END

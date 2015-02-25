@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/401/trunk/app/design/frontend/base/default/template/checkout/cart
+END
+coupon.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/cart/coupon.phtml
+END
+sidebar.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/cart/sidebar.phtml
+END
+shipping.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/cart/shipping.phtml
+END
+noItems.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/cart/noItems.phtml
+END
+totals.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/cart/totals.phtml
+END
+crosssell.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/cart/crosssell.phtml
+END

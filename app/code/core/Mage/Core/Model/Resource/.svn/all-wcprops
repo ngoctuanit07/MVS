@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Session.php
+END
+Language.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Language.php
+END
+Website.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Website.php
+END
+Variable.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Variable.php
+END
+Setup.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Setup.php
+END
+Design.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Design.php
+END
+Transaction.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Transaction.php
+END
+Store.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Store.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Abstract.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Cache.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Config.php
+END
+Layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Layout.php
+END
+Flag.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Flag.php
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Iterator.php
+END
+Translate.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Translate.php
+END
+Resource.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Core/Model/Resource/Resource.php
+END

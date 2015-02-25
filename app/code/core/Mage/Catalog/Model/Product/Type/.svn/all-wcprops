@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type
+END
+Configurable.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type/Configurable.php
+END
+Price.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type/Price.php
+END
+Api.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type/Api.php
+END
+Virtual.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type/Virtual.php
+END
+Grouped.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type/Grouped.php
+END
+Simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type/Simple.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product/Type/Abstract.php
+END

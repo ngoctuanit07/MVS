@@ -1,0 +1,159 @@
+<?php $category = Mage::getModel('catalog/category'); 
+     
+    $category->load(2); 
+    $childrenString = $category->getChildren(); 
+    $children = explode(',',$childrenString); 
+    $categoryOptions=''; 
+    foreach($children as $c)
+    { 
+        $catname= strtolower($category->load($c)->getName());
+	$catname = preg_replace("/[\s_]/", "-", $catname);
+ 	$categoryOptions.= '<option value="' .$catname. '">' . $category->load($c)->getName() . '</option>' . "\n"; 
+    } ?> 
+<html >
+<head>
+<title>Merchant Registration Form</title>
+<style type="text/css">
+.lableninput
+{
+padding:5px;
+}
+label 
+{
+	margin-right:10px;
+	width:10em;
+	float:left;
+}
+</style>
+</head>
+
+<body>
+<form method="post" action="<?php echo Mage::getUrl('merchant/index/save')?>" id="merchant-reg" >
+<fieldset>
+<div class="lableninput">
+<label for="name">Name</label>
+<input type="text" name="name" class="required-entry" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="email">Email</label>
+<input type="email" name="email" class="required-entry validate-email"/>
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="store_name">Store Name</label>
+<input type="text" name="store_name" class="required-entry"/>
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="store_alias">Store Alias</label>
+<input type="text" name="store_alias" class="required-entry"/>
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="business_category">Business Category</label>
+<select type="text" name="business_category" >
+  <?php echo $categoryOptions ?> 
+</select>
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="merchant_plan">Merchant Plan</label>
+<select name="merchant_plan">
+<option value="plan1"> $100 for 1 month</option>
+<option value="plan2"> $300 For 5 month</option>
+<option value="plan3"> $500 For 12 month</option>
+</select>
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="owner_company_name">Owner Company Name</label>
+<input type="text" name="owner_company_name" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="registration_number">Registration Number</label>
+<input type="text" name="registration_number" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="address">Address</label>
+<input type="text" name="address" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="city">City</label>
+<input type="text" name="city" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="state">State</label>
+<input type="text" name="state" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="post_code">Post Code</label>
+<input type="text" name="post_code" class ="validate-zip"/>
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="country">Country</label>
+<input type="text" name="country" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="telephone">Telephone</label>
+<input type="text" name="telephone" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="fax">Fax</label>
+<input type="text" name="fax" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="fax">Fax</label>
+<input type="text" name="fax" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="order_satus">Order Satus</label>
+<input type="text" name="order_satus" />
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="status">Status</label>
+<select name="status">
+<option
+</select>
+</div>
+<div style="clear:both"></div>
+<input type="submit" value ="Procced to Checkout"/>
+</fieldset>
+</form>
+</body>
+ <script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('merchant-reg', true)
+    //]]>
+    </script>
+</html>
+
+

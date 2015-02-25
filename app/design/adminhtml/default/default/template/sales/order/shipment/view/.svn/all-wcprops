@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/sales/order/shipment/view
+END
+form.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/sales/order/shipment/view/form.phtml
+END
+tracking.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/sales/order/shipment/view/tracking.phtml
+END
+items.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/sales/order/shipment/view/items.phtml
+END

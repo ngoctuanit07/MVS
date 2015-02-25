@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4
+END
+Quote.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Quote.php
+END
+Setup.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Setup.php
+END
+Order.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Order.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Abstract.php
+END
+Report.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Report.php
+END

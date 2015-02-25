@@ -1,0 +1,53 @@
+<div class="footer-wrapper">
+  <div class="wrapper">
+    <div class="footer">
+    <div class="footer-links">
+      <div class="fooLinks">
+        <div class="block-title">Information</div>
+        <ul>
+          <li class="level1  Privacy Policy " ><a href="http://172.16.1.84/eshoppingmall/index.php/privacy-policy/?___SID=U"><span>Privacy Policy</span></a></li>
+          <li class="level1  About Us " ><a href="http://172.16.1.84/eshoppingmall/index.php/about-us/?___SID=U"><span>About Us</span></a></li>
+          <li class="level1  About Us " ><a href="http://172.16.1.84/eshoppingmall/index.php/store-info/?___SID=U"><span>Store Info</span></a></li>
+          <li class="level1  About Us " ><a href="http://172.16.1.84/eshoppingmall/index.php/shopping-info/?___SID=U"><span>Shopping Info</span></a></li>
+        </ul>
+      </div>
+      <div class="fooLinks">
+        <div class="block-title">Useful Links</div>
+        <ul class="top-links top-block">
+          <li class="first" ><a href="http://172.16.1.84/eshoppingmall/index.php/catalog/seo_sitemap/category/?___SID=U" title="Site Map" >Site Map</a></li>
+          <!-- <li class="first" ><a href="http://172.16.1.84/eshoppingmall/sitemap.xml" title="Site Map" >Site Map</a></li> -->
+          <li class="level1  Customer Service " ><a href="http://172.16.1.84/eshoppingmall/index.php/webenquiry/?___SID=U"><span>Customer Service</span></a></li>
+          <li class="level1  About Us " ><a href="http://172.16.1.84/eshoppingmall/index.php/faq/?___SID=U"><span>FAQ</span></a></li>
+        </ul>
+      </div>
+            <!--<div class="fooLinks">
+        <div class="block-title">My Account</div>
+        <ul>
+          <li><a href="http://172.16.1.84/eshoppingmall/index.php/sales/order/history/?___SID=U">My Orders</a></li>
+          <li><a href="http://172.16.1.84/eshoppingmall/index.php/wishlist/?___SID=U">My Wishlist</a></li>
+          <li><a href="http://172.16.1.84/eshoppingmall/index.php/checkout/cart/?___SID=U">My Cart</a></li>
+          <li><a href="http://172.16.1.84/eshoppingmall/index.php/checkout/?___SID=U">Checkout</a></li>
+        </ul>
+      </div> -->
+            </div>
+      <div class="footer-block pull-right">
+        <div class="block-title">Payments</div>
+        <div class="block-content">
+          <p>We accept all major credit cards and Paypal.</p>
+          <p><img src="http://172.16.1.84/eshoppingmall/skin/frontend/default/default/images/shipping.jpg" alt="Shipping" /></p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="footer-credits">
+  <div class="wrapper">
+         <address>&copy; 2014 Eshoppingmall. All Rights Reserved.</address>
+  </div>
+  <div class="clear"></div>
+</div>
+      
+

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Dataflow/Model/Convert/Adapter/Db
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Dataflow/Model/Convert/Adapter/Db/Table.php
+END

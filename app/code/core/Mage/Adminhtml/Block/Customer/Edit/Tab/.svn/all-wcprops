@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab
+END
+Newsletter.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Newsletter.php
+END
+Tags.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Tags.php
+END
+Tag.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Tag.php
+END
+Reviews.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Reviews.php
+END
+Account.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Account.php
+END
+Cart.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Cart.php
+END
+Addresses.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Addresses.php
+END
+Carts.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Carts.php
+END
+View.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/View.php
+END
+Orders.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Orders.php
+END
+Wishlist.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Wishlist.php
+END

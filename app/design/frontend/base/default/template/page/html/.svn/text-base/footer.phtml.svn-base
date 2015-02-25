@@ -1,0 +1,82 @@
+<?php
+$groupId = Mage::getSingleton('customer/session')->getCustomerGroupId();
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-wrapper">
+  <div class="wrapper">
+    <div class="footer">
+    <div class="footer-links">
+      <div class="fooLinks">
+        <div class="block-title"><?php echo $this->__('Information');?></div>
+        <ul>
+          <li class="level1  Privacy Policy " ><a href="<?php echo $this->getUrl('privacy-policy')?>"><span><?php echo $this->__('Privacy Policy');?></span></a></li>
+          <li class="level1  About Us " ><a href="<?php echo $this->getUrl('about-us')?>"><span><?php echo $this->__('About Us');?></span></a></li>
+          <li class="level1  About Us " ><a href="<?php echo $this->getUrl('store-info')?>"><span><?php echo $this->__('Store Info');?></span></a></li>
+          <li class="level1  About Us " ><a href="<?php echo $this->getUrl('shopping-info')?>"><span><?php echo $this->__('Shopping Info');?></span></a></li>
+        </ul>
+      </div>
+      <div class="fooLinks">
+        <div class="block-title"><?php echo $this->__('Useful Links');?></div>
+        <ul class="top-links top-block">
+          <li class="first" ><a href="<?php echo $this->getUrl('catalog/seo_sitemap/category')?>" title="Site Map" ><?php echo $this->__('Site Map');?></a></li>
+          <!-- <li class="first" ><a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB)."sitemap.xml"?>" title="Site Map" ><?php echo $this->__('Site Map');?></a></li> -->
+          <li class="level1  Customer Service " ><a href="<?php echo $this->getUrl('webenquiry')?>"><span><?php echo $this->__('Customer Service');?></span></a></li>
+          <li class="level1  About Us " ><a href="<?php echo $this->getUrl('faq')?>"><span><?php echo $this->__('FAQ');?></span></a></li>
+        </ul>
+      </div>
+      <?php if($groupId == 4 || $groupId == 0) {?>
+      <!--<div class="fooLinks">
+        <div class="block-title"><?php echo $this->__('My Account');?></div>
+        <ul>
+          <li><a href="<?php echo $this->getUrl('sales/order/history')?>"><?php echo $this->__('My Orders');?></a></li>
+          <li><a href="<?php echo $this->getUrl('wishlist')?>"><?php echo $this->__('My Wishlist');?></a></li>
+          <li><a href="<?php echo $this->getUrl('checkout/cart')?>"><?php echo $this->__('My Cart');?></a></li>
+          <li><a href="<?php echo $this->getUrl('checkout')?>"><?php echo $this->__('Checkout');?></a></li>
+        </ul>
+      </div> -->
+      <?php }?>
+      </div>
+      <div class="footer-block pull-right">
+        <div class="block-title"><?php echo $this->__('Payments');?></div>
+        <div class="block-content">
+          <p><?php echo $this->__('We accept all major credit cards and Paypal.');?></p>
+          <p><img src="<?php echo $this->getSkinUrl('images/shipping.jpg')?>" alt="Shipping" /></p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="footer-credits">
+  <div class="wrapper">
+         <address><?php echo $this->__($this->getCopyright()) ?></address>
+  </div>
+  <div class="clear"></div>
+</div>
+      
+

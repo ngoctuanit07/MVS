@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection
+END
+Class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Class.php
+END
+Function.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Function.php
+END
+Parameter.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Parameter.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/File.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Extension.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Exception.php
+END
+Method.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Method.php
+END
+Docblock.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Docblock.php
+END
+Property.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Reflection/Property.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/etc
+END
+api.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/etc/api.xml
+END
+adminhtml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/etc/adminhtml.xml
+END
+wsi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/etc/wsi.xml
+END
+system.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/etc/system.xml
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/etc/config.xml
+END
+wsdl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/etc/wsdl.xml
+END

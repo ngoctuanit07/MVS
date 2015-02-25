@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog
+END
+Salesrule.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/Salesrule.php
+END
+Review.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/Review.php
+END
+Special.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/Special.php
+END
+Tag.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/Tag.php
+END
+NotifyStock.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/NotifyStock.php
+END
+Category.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/Category.php
+END
+New.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/New.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rss/Block/Catalog/Abstract.php
+END

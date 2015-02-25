@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/ImportExport/Model/Source/Export
+END
+Format.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/ImportExport/Model/Source/Export/Format.php
+END
+Entity.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/ImportExport/Model/Source/Export/Entity.php
+END

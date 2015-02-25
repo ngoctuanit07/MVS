@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Resource/Form
+END
+Fieldset.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Resource/Form/Fieldset.php
+END
+Type.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Resource/Form/Type.php
+END
+Element.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Resource/Form/Element.php
+END
+Attribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Resource/Form/Attribute.php
+END

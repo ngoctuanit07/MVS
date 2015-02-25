@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Boolean.php
+END
+Weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Weight.php
+END
+Price.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Price.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Image.php
+END
+Apply.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Apply.php
+END
+Gallery.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Gallery.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Config.php
+END

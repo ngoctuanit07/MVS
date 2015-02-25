@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element
+END
+Textarea.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Textarea.php
+END
+Password.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Password.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Image.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/File.php
+END
+Select.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Select.php
+END
+Email.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Email.php
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Collection.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Abstract.php
+END
+Checkbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Checkbox.php
+END
+Fieldset.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Fieldset.php
+END
+Multiline.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Multiline.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Text.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Date.php
+END
+CountryListSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/CountryListSelect.php
+END
+Custom.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Custom.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Validator.php
+END
+Multiselect.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Model/Simplexml/Form/Element/Multiselect.php
+END

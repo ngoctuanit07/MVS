@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/178/trunk/app/design/frontend/default/merchant/layout
+END
+persistent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/persistent.xml
+END
+oauth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/oauth.xml
+END
+review.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/review.xml
+END
+catalog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/226/trunk/app/design/frontend/default/merchant/layout/catalog.xml
+END
+tag.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/tag.xml
+END
+moneybookers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/moneybookers.xml
+END
+customer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/customer.xml
+END
+core.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/core.xml
+END
+downloadable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/downloadable.xml
+END
+cataloginventory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/cataloginventory.xml
+END
+sendfriend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/sendfriend.xml
+END
+local.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/423/trunk/app/design/frontend/default/merchant/layout/local.xml
+END
+googleanalytics.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/googleanalytics.xml
+END
+directory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/directory.xml
+END
+shipping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/shipping.xml
+END
+weee.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/weee.xml
+END
+slide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/slide.xml
+END
+xmlconnect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/xmlconnect.xml
+END
+paypal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/paypal.xml
+END
+centinel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/centinel.xml
+END
+newsletter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/newsletter.xml
+END
+captcha.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/captcha.xml
+END
+poll.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/poll.xml
+END
+reports.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/reports.xml
+END
+catalogsearch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/291/trunk/app/design/frontend/default/merchant/layout/catalogsearch.xml
+END
+bundle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/bundle.xml
+END
+wishlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/318/trunk/app/design/frontend/default/merchant/layout/wishlist.xml
+END
+payment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/payment.xml
+END
+checkout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/237/trunk/app/design/frontend/default/merchant/layout/checkout.xml
+END
+merchant.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/merchant.xml
+END
+cms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/cms.xml
+END
+paypaluk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/paypaluk.xml
+END
+catalog_msrp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/catalog_msrp.xml
+END
+sales.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/sales.xml
+END
+productalert.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/productalert.xml
+END
+page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/423/trunk/app/design/frontend/default/merchant/layout/page.xml
+END
+rss.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/rss.xml
+END
+pagecache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/pagecache.xml
+END
+contacts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/contacts.xml
+END
+authorizenet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/layout/authorizenet.xml
+END

@@ -1,0 +1,223 @@
+10
+
+dir
+4
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/code/core/Mage
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-02T06:47:04.606451Z
+3
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+Admin
+dir
+
+AdminNotification
+dir
+
+Adminhtml
+dir
+
+Api
+dir
+
+Api2
+dir
+
+Authorizenet
+dir
+
+Backup
+dir
+
+Bundle
+dir
+
+Captcha
+dir
+
+Catalog
+dir
+
+CatalogIndex
+dir
+
+CatalogInventory
+dir
+
+CatalogRule
+dir
+
+CatalogSearch
+dir
+
+Centinel
+dir
+
+Checkout
+dir
+
+Cms
+dir
+
+Compiler
+dir
+
+Connect
+dir
+
+Contacts
+dir
+
+Core
+dir
+
+Cron
+dir
+
+CurrencySymbol
+dir
+
+Customer
+dir
+
+Dataflow
+dir
+
+Directory
+dir
+
+Downloadable
+dir
+
+Eav
+dir
+
+GiftMessage
+dir
+
+GoogleAnalytics
+dir
+
+GoogleBase
+dir
+
+GoogleCheckout
+dir
+
+ImportExport
+dir
+
+Index
+dir
+
+Install
+dir
+
+Log
+dir
+
+Media
+dir
+
+Newsletter
+dir
+
+Oauth
+dir
+
+Page
+dir
+
+PageCache
+dir
+
+Paygate
+dir
+
+Payment
+dir
+
+Paypal
+dir
+
+PaypalUk
+dir
+
+Persistent
+dir
+
+Poll
+dir
+
+ProductAlert
+dir
+
+Rating
+dir
+
+Reports
+dir
+
+Review
+dir
+
+Rss
+dir
+
+Rule
+dir
+
+Sales
+dir
+
+SalesRule
+dir
+
+Sendfriend
+dir
+
+Shipping
+dir
+
+Sitemap
+dir
+
+Tag
+dir
+
+Tax
+dir
+
+Usa
+dir
+
+Weee
+dir
+
+Widget
+dir
+
+Wishlist
+dir
+
+XmlConnect
+dir
+

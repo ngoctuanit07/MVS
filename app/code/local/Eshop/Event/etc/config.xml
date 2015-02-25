@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Eshop_Event>
+      <version>0.1.0</version>
+    </Eshop_Event>
+  </modules>
+  <frontend>
+    <routers>
+      <event>
+        <use>standard</use>
+          <args>
+            <module>Eshop_Event</module>
+            <frontName>event</frontName>
+          </args>
+      </event>
+    </routers>
+		<layout>
+		  <updates>
+			<event>
+			  <file>event.xml</file>
+			</event>
+		  </updates>
+		</layout>
+  </frontend>
+  <global>
+    <helpers>
+      <event>
+        <class>Eshop_Event_Helper</class>
+      </event>
+    </helpers>
+	<blocks>
+	  <event>
+		<class>Eshop_Event_Block</class>
+	  </event>
+	</blocks>
+	<models>
+	  <event>
+		<class>Eshop_Event_Model</class>
+		<resourceModel>event_mysql4</resourceModel>
+	  </event>
+	  <event_mysql4>
+		<class>Eshop_Event_Model_Mysql4</class>
+		<entities>		  
+			  <event>
+				<table>event</table>
+			  </event>		  
+			  <eventproduct>
+				<table>eventproduct</table>
+			  </eventproduct>
+		</entities>
+	  </event_mysql4>
+	</models>
+	<resources>
+	  <event_setup>
+		<setup>
+		  <module>Eshop_Event</module>
+		</setup>
+		<connection>
+		  <use>core_setup</use>
+		</connection>
+	  </event_setup>
+	  <event_write>
+		<connection>
+		  <use>core_write</use>
+		</connection>
+	  </event_write>
+	  <event_read>
+		<connection>
+		  <use>core_read</use>
+		</connection>
+	  </event_read>
+	</resources>
+  </global>
+  <admin>
+	<routers>
+	  <event>
+	    <use>admin</use>
+		<args>
+		  <module>Eshop_Event</module>
+		  <frontName>event</frontName>
+		</args>
+	  </event>
+	</routers>
+  </admin>
+  <adminhtml>
+	<menu>
+	  <event module="event">
+		<title>Event</title>
+		<sort_order>100</sort_order>
+		<children>
+		  <event module="event">
+		    <title>Manage Event</title>
+			<sort_order>0</sort_order>
+			<action>event/adminhtml_event</action>
+		  </event>
+		  <eventproduct module="event">
+		    <title>Manage Event Product</title>
+			<sort_order>10</sort_order>
+			<action>event/adminhtml_eventproduct</action>
+		  </eventproduct>
+		</children>
+	  </event>
+	</menu>
+	<acl>
+	  <resources>
+		<all>
+		  <title>Allow Everything</title>
+		</all>
+		<admin>
+		  <children>
+			<event translate="title" module="event">
+			  <title>Event</title>
+			  <sort_order>1000</sort_order>
+			  <children>
+		  <event translate="title">
+			<title>Manage Event</title>
+			<sort_order>0</sort_order>
+		  </event>
+		  <eventproduct translate="title">
+			<title>Manage Eventproduct</title>
+			<sort_order>10</sort_order>
+		  </eventproduct>
+			  </children>
+			</event>
+		  </children>
+		</admin>
+	  </resources>
+	</acl>
+	<layout>
+	  <updates>
+		<event>
+		  <file>event.xml</file>
+		</event>
+	  </updates>
+	</layout>
+  </adminhtml>
+</config> 

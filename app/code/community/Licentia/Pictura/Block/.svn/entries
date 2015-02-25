@@ -1,0 +1,41 @@
+10
+
+dir
+65
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/code/community/Licentia/Pictura/Block
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-23T05:34:58.771935Z
+65
+vishwasb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+
+
+
+
+
+0
+
+Adminhtml
+dir
+
+Widget
+dir
+

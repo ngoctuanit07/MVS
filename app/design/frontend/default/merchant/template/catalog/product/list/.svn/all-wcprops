@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/list
+END
+related.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/list/related.phtml
+END
+toolbar.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/usvn/public/svn/eshoppingmall/!svn/ver/375/trunk/app/design/frontend/default/merchant/template/catalog/product/list/toolbar.phtml
+END
+upsell.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/list/upsell.phtml
+END

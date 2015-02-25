@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Oauth/Block/Adminhtml/Oauth
+END
+Consumer.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Oauth/Block/Adminhtml/Oauth/Consumer.php
+END
+Authorize.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Oauth/Block/Adminhtml/Oauth/Authorize.php
+END
+AuthorizedTokens.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Oauth/Block/Adminhtml/Oauth/AuthorizedTokens.php
+END

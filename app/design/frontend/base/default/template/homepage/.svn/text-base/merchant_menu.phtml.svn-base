@@ -1,0 +1,108 @@
+<?php 
+$website_name= Mage::app()->getWebsite()->getName();
+$store_id= Mage::app()->getStore()->getId();
+//$store_id = Mage::app()->getWebsite()->getDefaultGroup()->getDefaultStoreId();
+
+$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+$select = $connection->select()
+->from ('merchant', array('*'))
+->where ('store_alias=?',$website_name);
+$rowsArray = $connection->fetchAll($select);
+$biss_cat= $rowsArray[0][business_category]; 
+/* get  category id */ //echo Mage::getModel('catalog/category')->load($biss_cat);
+
+$cat = Mage::getResourceModel('catalog/category_collection')->addFieldToFilter('name', "$biss_cat");
+
+$store_cat =  $cat->getFirstItem()->getEntityId();
+
+
+$resource = Mage::getSingleton('core/resource');
+$readConnection = $resource->getConnection('core_read');
+$categoryCollection = "SELECT *
+FROM catalog_category_entity_int CCEI
+LEFT JOIN catalog_category_entity CCE ON CCEI.entity_id = CCE.entity_id
+WHERE store_id = '".$store_id."'
+AND attribute_id ='42'
+AND value = '1'
+AND level = '3'";
+
+$results = $readConnection->fetchAll($categoryCollection);
+
+if(count($results)==0)
+{
+	$store_id = Mage::app()->getWebsite()->getDefaultGroup()->getDefaultStoreId();
+
+	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+	$select = $connection->select()
+	->from ('merchant', array('*'))
+	->where ('store_alias=?',$website_name);
+	$rowsArray = $connection->fetchAll($select);
+	$biss_cat= $rowsArray[0][business_category]; 
+	/* get  category id */ //echo Mage::getModel('catalog/category')->load($biss_cat);
+	
+	$cat = Mage::getResourceModel('catalog/category_collection')->addFieldToFilter('name', "$biss_cat");
+	
+	$store_cat =  $cat->getFirstItem()->getEntityId();
+	
+	
+	$resource = Mage::getSingleton('core/resource');
+	$readConnection = $resource->getConnection('core_read');
+	$categoryCollection = "SELECT *
+	FROM catalog_category_entity_int CCEI
+	LEFT JOIN catalog_category_entity CCE ON CCEI.entity_id = CCE.entity_id
+	WHERE store_id = '".$store_id."'
+	AND attribute_id ='42'
+	AND value = '1'
+	AND level = '3'";
+	
+	$results = $readConnection->fetchAll($categoryCollection);
+}
+
+$storecat = array();
+foreach ($results as $v1)
+{
+$storecat[] = $v1['entity_id'];
+}
+
+$catactivechild = array();
+foreach ($storecat as $v2) {
+$category = Mage::getModel('catalog/category')->load($v2);
+//Load collection
+$categoryCollection= $category->getChildrenCategories();
+
+//Add filter to collection to get active categories only
+$catactivechild[]= $categoryCollection->addIsActiveFilter()->getData();
+
+}
+$maincat_subcat = array_combine($storecat,$catactivechild);
+/*echo"<pre>";
+print_r($maincat_subcat);
+die;*/
+
+?>
+ <nav id="main-nav">
+              <div id="responsive-nav">
+                <div id="responsive-nav-button"><?php echo $this->__('Menu')?><span id="responsive-nav-button-icon"></span> </div>
+                <!-- responsive-nav-button -->
+              </div>
+              <ul class="menu clearfix">
+                <li> <a class="active" href="<?php echo $this->getUrl()?>"><?php echo $this->__('Home')?></a>
+                </li>
+                <li class="mega-menu-container"><a href="<?php echo Mage::getModel("catalog/category")->load($store_cat)->getUrl() ?>"><?php echo $this->__('Store')?></a>
+                 <div class="mega-menu clearfix">
+				<?php foreach ($maincat_subcat as $key=>$value) {?>
+				
+				<div class="col-4">
+				<a href="<?php echo Mage::getModel("catalog/category")->load($key)->getUrl() ?>" class="mega-menu-title"><?php echo Mage::getModel('catalog/category')->load($key)->getName();?></a>
+				<?php foreach ($value as $subcat) {?>
+						<ul class="mega-menu-list clearfix">
+							<li><a href="<?php echo Mage::getModel("catalog/category")->load($subcat[entity_id])->getUrl() ?>"><?php echo Mage::getModel('catalog/category')->load($subcat[entity_id])->getName();?></a></li>
+						</ul>
+						<?php }?>
+					</div>
+					<?php }?>
+			</div>
+                </li>
+                <li><a href="<?php echo $this->getUrl('webenquiry')?>"><?php echo $this->__('Customer Service')?></a></li>
+              </ul>
+            </nav>

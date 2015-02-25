@@ -1,0 +1,6 @@
+
+<?php echo $this->getLayout()->createBlock('homepage/index')->setTemplate('homepage/latestproducts_block.phtml')->toHtml(); ?>
+<?php //echo $this->getLayout()->createBlock('homepage/index')->setTemplate('homepage/featuredproducts-block.phtml')->toHtml(); ?>
+       <div class="clear"></div>
+<?php echo $this->getLayout()->createBlock('homepage/index')->setTemplate('homepage/tabs.phtml')->toHtml(); ?>
+        <div class="clear"></div>

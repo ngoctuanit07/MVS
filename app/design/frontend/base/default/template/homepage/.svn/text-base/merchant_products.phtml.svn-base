@@ -1,0 +1,236 @@
+<?php
+$website_name= Mage::app()->getWebsite()->getName();
+/* get biss category from merchant table */
+$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+$select = $connection->select()
+->from ('merchant', array('*'))
+->where ('store_alias=?',$website_name);
+$rowsArray = $connection->fetchAll($select);
+$biss_cat= $rowsArray[0][business_category]; 
+/* get  category id */ //echo Mage::getModel('catalog/category')->load($biss_cat);
+
+$cat = Mage::getResourceModel('catalog/category_collection')->addFieldToFilter('name', "$biss_cat");
+
+$store_cat =  $cat->getFirstItem()->getEntityId();
+$store_id= Mage::app()->getStore()->getId();
+
+/* get in navigation category of current store */
+$resource = Mage::getSingleton('core/resource');
+$readConnection = $resource->getConnection('core_read');
+$categoryCollection = " SELECT * 
+FROM catalog_category_entity_int
+WHERE store_id = '".$store_id."'
+AND attribute_id = '67'
+AND value = '1' 
+LIMIT 0, 4 ";
+
+$results = $readConnection->fetchAll($categoryCollection);
+
+$home_cat = array();
+foreach ($results as $v1)
+{
+	$home_cat[] = $v1['entity_id'];
+}
+$home_cat_name = array();
+foreach ($home_cat as $v2)
+{
+ $home_cat_name[] = Mage::getModel('catalog/category')->load($v2)->getName();
+}
+
+$home_cat_and_ids =  array_combine( $home_cat, $home_cat_name );
+
+$category = Mage::getModel('catalog/category')->load($store_cat);
+$_productCollection = Mage::getResourceModel('catalog/product_collection')
+      				->setStoreId($store_id)
+      				->addCategoryFilter($category)
+      				->addAttributeToSelect('price')
+      				->addAttributeToSelect('name')
+      				 ->addAttributeToSelect('image')
+      				 ->addAttributeToFilter('featured', 4 ,'left')
+      				->setPageSize(8);
+      				
+$_helper = $this->helper('catalog/output');
+?>
+
+<div class="container">
+  
+    
+      
+        <div class="col-md-12 col-xs-12 main-content">
+          <header class="content-title">
+            <h2 class="title"><?php echo $this->__('Our Products')?></h2>
+            <p class="title-desc"><?php echo $this->__("Save your money and time with our store. Here's the best part of our impressive assortment.")?></p>
+          </header>
+          <ul id="products-tabs-list" class="tab-style-1 clearfix col-md-10">
+            <li class="active"><a href="#all" data-toggle="tab"><?php echo $this->__('All')?></a></li>
+            <?php foreach ($home_cat_and_ids as $key=>$value) {?>
+            <li><a href="<?php echo "#".$key; ?>" data-toggle="tab"><?php echo $value; ?></a></li>
+            <?php } ?>
+            <!--<li><a href="#featured" data-toggle="tab">Printers &amp; Scanners</a></li>
+            <li><a href="#bestsellers" data-toggle="tab">External Hard Disks</a></li>
+            <li><a href="#special" data-toggle="tab">Pen Drives</a></li>
+          --></ul>
+          <!-- <div class="pull-right"><a href="#" class="class">view all categories</a></div>-->
+          <div id="products-tabs-content" class="row tab-content">
+            
+            <div class="tab-pane active" id="all">
+              
+<?php if(!$_productCollection->count()){ ?>
+<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<?php }else{ ?>
+<?php $_collectionSize = $_productCollection->count() ?>
+    <?php foreach ($_productCollection as $_product){
+    	$_prosplprice =  $_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $_product->getSku());
+    ?>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item homeimgh8 homeimg1024">
+                  <div class="item-image-container respimgwidth">
+                    <figure class="postion_r"> <a href="<?php echo $_product->getProductUrl() ?>"> <img src="<?php echo $_product->getImageUrl(); ?>" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="item-image">  </a>
+                     <div class="item-price-container">
+						<div class="price-box">
+                    		<p class="old-price">
+               					 <span class="price old-price"><?php echo Mage::helper('core')->currency(number_format($_product->getPrice(),2));?> </span>
+            				</p>
+                            <p class="special-price">
+                   				<span  class="price item-price"><?php echo Mage::helper('core')->currency(number_format($_prosplprice->getSpecialPrice(),2));?> </span>
+         					</p>
+        				</div>
+					</div>
+                     </figure>
+                    <!--<div class="item-price-container"> <span class="old-price">$160</span> <span class="item-price">$120</span> </div>
+                    <span class="new-rect">New</span> <span class="discount-rect">-30%</span>--> 
+                    
+                  <!-- End .item-image -->
+                  <div class="item-meta-container">
+                    <div class="ratings-container">
+                     <!-- <div class="ratings">
+                        <div class="ratings-result" data-result="90"></div>
+                      </div> -->
+                      <!-- End .ratings -->
+                      <!--<span class="ratings-amount"> 3 Reviews </span>-->
+                <?php if($_product->getRatingSummary()): ?>
+                <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+                <?php endif; ?>     
+                       </div>
+                    <!-- End .rating-container -->
+                    <h3 class="item-name respitemname"><a href="<?php echo $_product->getProductUrl() ?> " title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h3>
+                    <div class="item-action"> 
+                       <?php if($_product->isSaleable()): ?>
+                        <button  type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart item-add-btn"  onclick="setLocation('<?php echo  $this->helper('checkout/cart')->getAddUrl($_product)  ?>')"><span class="icon-cart-text" style="line-height:15px;"><?php echo $this->__('Add to Cart') ?></span></button>
+                    <?php else: ?>
+                     <button  type="button" class="btnmy" disabled="disabled" title="<?php echo $this->__('OUT OF STOCK') ?>"><span class="icon-cart-text" style="line-height:15px; padding:10px 15px;"><?php echo $this->__('OUT OF STOCK') ?></span></button>
+                    <?php endif; ?>
+                     <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                      <div class="item-action-inner"> <a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="icon-button icon-like">Add To Wishlist</a> <!--<a href="#" class="icon-button icon-compare">Checkout</a>--> </div>
+                       <?php endif; ?>
+                      <!-- End .item-action-inner -->
+                    </div>
+                    <!-- End .item-action -->
+                  </div>
+                  <!-- End .item-meta-container -->
+                </div>
+                <!-- End .item -->
+                   </div>
+              <!-- End .col-md-3 -->
+              </div>
+                <?php 
+				}
+                }
+                //end of else nd foreach 
+                ?>
+           
+              </div>
+              <!-- End #all -->
+ <?php 
+foreach ($home_cat as $category_id )
+{
+$category = Mage::getModel('catalog/category')->load($category_id);
+ $_productCollection = Mage::getResourceModel('catalog/product_collection')
+      				->setStoreId($store_id)
+      				->addCategoryFilter($category)
+      				->addAttributeToSelect('price')
+      				->addAttributeToSelect('name')
+      				->addAttributeToSelect('image')
+      				->addAttributeToFilter('featured', 4 ,'left')
+      				->setPageSize(8);
+      				
+
+      				$_helper = $this->helper('catalog/output');
+?>
+ <div class="tab-pane " id="<?php echo $category_id; ?>">
+<?php if(!$_productCollection->count()){ ?>
+<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<?php }else{ ?>
+<?php $_collectionSize = $_productCollection->count() ?>
+    <?php foreach ($_productCollection as $_product){
+    	$_prosplprice =  $_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $_product->getSku());
+    ?>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item">
+                  <div class="item-image-container">
+                    <figure class="postion_r"> <a href="<?php echo $_product->getProductUrl() ?>"> <img src="<?php echo $_product->getImageUrl(); ?>" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="item-image">  </a>
+                     <div class="item-price-container">
+						<div class="price-box">
+                    		<p class="old-price">
+               					 <span class="price old-price"><?php echo Mage::helper('core')->currency(number_format($_product->getPrice(),2));?> </span>
+            				</p>
+                            <p class="special-price">
+                   				<span  class="price item-price"><?php echo Mage::helper('core')->currency(number_format($_prosplprice->getSpecialPrice(),2));?> </span>
+         					</p>
+        				</div>
+					</div>
+                     </figure>
+                    <!--<div class="item-price-container"> <span class="old-price">$160</span> <span class="item-price">$120</span> </div>
+                    <span class="new-rect">New</span> <span class="discount-rect">-30%</span>--> 
+                    
+                  <!-- End .item-image -->
+                  <div class="item-meta-container">
+                    <div class="ratings-container">
+                     <!-- <div class="ratings">
+                        <div class="ratings-result" data-result="90"></div>
+                      </div> -->
+                      <!-- End .ratings -->
+                      <!--<span class="ratings-amount"> 3 Reviews </span>-->
+                <?php if($_product->getRatingSummary()): ?>
+                <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+                <?php endif; ?>     
+                       </div>
+                    <!-- End .rating-container -->
+                    <h3 class="item-name"><a href="<?php echo $_product->getProductUrl() ?> " title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h3>
+                    <div class="item-action"> 
+                       <?php if($_product->isSaleable()): ?>
+                        <button  type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart item-add-btn"  onclick="setLocation('<?php echo  $this->helper('checkout/cart')->getAddUrl($_product)  ?>')"><span class="icon-cart-text" style="line-height:15px;"><?php echo $this->__('Add to Cart') ?></span></button>
+                    <?php else: ?>
+                   <button  type="button" class="btnmy" disabled="disabled" title="<?php echo $this->__('OUT OF STOCK') ?>"><span class="icon-cart-text" style="line-height:15px; padding:10px 15px;"><?php echo $this->__('OUT OF STOCK') ?></span></button>
+                    <?php endif; ?>
+                     <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                      <div class="item-action-inner"> <a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="icon-button icon-like">Add To Wishlist</a> <!--<a href="#" class="icon-button icon-compare">Checkout</a>--> </div>
+                       <?php endif; ?>
+                      <!-- End .item-action-inner -->
+                    </div>
+                    <!-- End .item-action -->
+                  </div>
+                  <!-- End .item-meta-container -->
+                </div>
+                <!-- End .item -->
+                   </div>
+              <!-- End .col-md-3 -->
+              </div>
+                <?php 
+				}
+                }
+                //end of else nd foreach 
+                ?>
+</div>
+<!-- end of dynamic div with category id  -->
+<?php }//end of foreach ?>
+                </div>
+              <!-- End .tab-content -->
+              </div>
+              <!-- End .row2 -->
+      
+              <!-- End .col-md-12 -->
+    
+              <!-- End .row1 -->
+  
+              <!-- End .container -->

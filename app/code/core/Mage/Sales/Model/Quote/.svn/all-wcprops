@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Quote
+END
+Payment.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Quote/Payment.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Quote/Config.php
+END
+Item.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Quote/Item.php
+END
+Address.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Quote/Address.php
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View
+END
+Attributes.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Attributes.php
+END
+Additional.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Additional.php
+END
+Price.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Price.php
+END
+Description.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Description.php
+END
+Tabs.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Tabs.php
+END
+Options.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Options.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Abstract.php
+END
+Media.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Block/Product/View/Media.php
+END

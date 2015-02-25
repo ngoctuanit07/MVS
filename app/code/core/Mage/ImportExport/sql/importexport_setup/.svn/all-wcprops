@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/ImportExport/sql/importexport_setup
+END
+mysql4-install-0.1.0.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/ImportExport/sql/importexport_setup/mysql4-install-0.1.0.php
+END
+install-1.6.0.0.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/ImportExport/sql/importexport_setup/install-1.6.0.0.php
+END
+mysql4-upgrade-1.6.0.1-1.6.0.2.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/ImportExport/sql/importexport_setup/mysql4-upgrade-1.6.0.1-1.6.0.2.php
+END

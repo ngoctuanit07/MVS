@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/tax/checkout
+END
+subtotal.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/tax/checkout/subtotal.phtml
+END
+grandtotal.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/tax/checkout/grandtotal.phtml
+END
+tax.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/tax/checkout/tax.phtml
+END
+shipping.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/tax/checkout/shipping.phtml
+END
+discount.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/tax/checkout/discount.phtml
+END

@@ -1,0 +1,48 @@
+<?php
+$customer = Mage::getSingleton('customer/session')->getCustomer();
+$email = $customer->getEmail();
+$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+$select = $connection->select()
+->from ('merchant', array('*'))
+->where ('email=?',$email);
+$rowsArray = $connection->fetchAll($select);
+?>
+<div class="my-account>
+<div class="page-title">
+<h1>Store Details</h1>
+</div>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+
+<div class="fieldset">
+<ul class="form-list">
+<li class="fields">
+<span><?php echo $this->__('Store Name : ') ?></span><span><?php echo $rowsArray[0]['store_name']; ?> </span>
+</li>
+<li class="fields">
+<span><?php echo $this->__('Store Alias : ') ?></span><span><?php echo $rowsArray[0]['store_alias']; ?></span>
+</li>
+<li class="fields">
+<span><?php echo $this->__('Email : ') ?></span><span><?php echo $email ?></span>
+</li>
+<li class="fields">
+<span><?php echo $this->__('Business Category : ') ?></span><span><?php echo $rowsArray[0]['business_category'];?></span>
+</li>
+<li class="fields">
+<span><?php echo $this->__('Merchant Plan : ') ?></span><span><?php echo $rowsArray[0]['merchant_plan'];?></span>
+<!--<span><a href="<?php //echo Mage::getUrl('merchant'); ?>"><?php //echo $this->__('Edit Plan')?></a></span>
+</li> -->
+<li class="fields">
+<span><?php echo $this->__('Owner Company Name : ') ?></span><span><?php echo $rowsArray[0]['owner_company_name'];?></span>
+</li>
+<li class="fields">
+<span><?php echo $this->__('Registration Number : ') ?></span><span> <?php echo $rowsArray[0]['registration_no'];?></span>
+
+</li>
+</ul>  
+</div>
+
+<div class="buttons-set">
+    <p class="back-link"><a href="<?php echo $this->getUrl('customer/account/') ?>"><small>&laquo; </small><?php echo $this->__('Back') ?></a></p>
+</div>
+<script type="text/javascript">
+</script>

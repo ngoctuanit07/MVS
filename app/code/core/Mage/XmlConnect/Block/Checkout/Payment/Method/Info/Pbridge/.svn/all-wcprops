@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Checkout/Payment/Method/Info/Pbridge
+END
+Verisign.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Checkout/Payment/Method/Info/Pbridge/Verisign.php
+END
+Authorizenet.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Checkout/Payment/Method/Info/Pbridge/Authorizenet.php
+END

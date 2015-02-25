@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions
+END
+Role.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/Role.php
+END
+Users.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/Users.php
+END
+Usernroles.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/Usernroles.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/User.php
+END
+Roles.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/Roles.php
+END
+Buttons.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/Buttons.php
+END
+Editroles.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/Editroles.php
+END
+Edituser.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Permissions/Edituser.php
+END

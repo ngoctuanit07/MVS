@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Category/Attribute/Source
+END
+Layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Category/Attribute/Source/Layout.php
+END
+Page.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Category/Attribute/Source/Page.php
+END
+Mode.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Category/Attribute/Source/Mode.php
+END
+Sortby.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Category/Attribute/Source/Sortby.php
+END

@@ -1,0 +1,39 @@
+<div class="featured products-block hover-block">
+        <div class="block-title"><a href="#">Weekly Best Selling<span>(Event 2)</span></a></div>
+        <div class="block-description"> Browse our Latest products. Crazy Deals this Month. </div>
+        <div class="block-slide">
+          
+          <div class="clear"></div>
+        <div class="slides-viewport" style="overflow: hidden; position: relative;"><ul class="products slides" style="width: 1000%; margin-left: 0px;">
+            <li style="width: 148px; float: left; display: block;"> <a class="product-image" title="HP Scanjet N6350 Networked Document Flatbed Scanner" href="#"><img width="218" height="150" alt="HP Scanjet N6350 Networked Document Flatbed Scanner" src="<?php echo $this->getSkinUrl('images/c02112514.png');?>" draggable="false"></a>
+              <h2 class="product-name"><a class="product-name" title="HP Scanjet N6350 Networked Document Flatbed Scanner" href="#">HP Scanjet N6350 Networked Document... </a></h2>
+              <div class="price-box"> <span class="regular-price">$600.00 </span> </div>
+              <div class="view-Store-bg"> <a href="#">View</a> </div>
+              
+            </li>
+            <li style="width: 148px; float: left; display: block;"> <a class="product-image" title="HP Instant Ink 300-page Plan 1st month enrollment kit" href="#"><img width="218" height="150" alt="HP Instant Ink 300-page Plan 1st month enrollment kit" src="<?php echo $this->getSkinUrl('images/c03892796.png')?>" draggable="false"></a>
+              <h2 class="product-name"><a class="product-name" title="HP Instant Ink 300-page Plan 1st month enrollment kit" href="#">HP Instant Ink 300-page Plan 1st mo... </a></h2>
+              <div class="price-box"> <span class="regular-price">$600.00 </span> </div>
+              <div class="view-Store-bg"> <a href="#">View</a> </div>
+              
+            </li>
+            <li style="width: 148px; float: left; display: block;"> <a class="product-image" title="HP Pavilion 23-g040xt All-in-One Desktop PC" href="#"><img width="218" height="150" alt="HP Pavilion 23-g040xt All-in-One Desktop PC" src="<?php echo $this->getSkinUrl('images/c03975555.png')?>" draggable="false"></a>
+              <h2 class="product-name"><a class="product-name" title="HP Pavilion 23-g040xt All-in-One Desktop PC" href="#">HP Pavilion 23-g040xt All-in-One De... </a></h2>
+              <div class="price-box"> <span class="regular-price">$600.00 </span> </div>
+              <div class="view-Store-bg"> <a href="#">View</a> </div>
+              
+            </li>
+            <li class="last" style="width: 148px; float: left; display: block;"> <a class="product-image" title="HP Slate7 Plus" href="#"><img width="218" height="150" alt="HP Slate7 Plus" src="<?php echo $this->getSkinUrl('images/c03927034.png')?>" draggable="false"></a>
+              <h2 class="product-name"><a class="product-name" title="HP Slate7 Plus" href="#">HP Slate7 Plus </a></h2>
+              <div class="price-box"> <span class="regular-price">$600.00 </span> </div>
+              <div class="view-Store-bg"> <a href="#">View</a> </div>
+              
+            </li>
+            <li style="width: 148px; float: left; display: block;"> <a class="product-image" title="HP Pavilion 10 TouchSmart 10z-e000 Notebook PC " href="#"><img width="218" height="150" alt="HP Pavilion 10 TouchSmart 10z-e000 Notebook PC " src="<?php echo $this->getSkinUrl('images/c03929723.png')?>" draggable="false"></a>
+              <h2 class="product-name"><a class="product-name" title="HP Pavilion 10 TouchSmart 10z-e000 Notebook PC " href="#">HP Pavilion 10 TouchSmart 10z-e000 ... </a></h2>
+              <div class="price-box"> <span class="regular-price">$600.00 </span> </div>
+              <div class="view-Store-bg"> <a href="#">View</a> </div>
+              
+            </li>
+          </ul></div><ul class="slides-direction-nav"><li><a href="#" class="slides-prev"><span></span></a></li><li><a href="#" class="slides-next"><span></span></a></li></ul></div>
+      </div>

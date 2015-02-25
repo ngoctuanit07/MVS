@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Mysql4/Calculation
+END
+Rule.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Mysql4/Calculation/Rule.php
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Mysql4/Calculation/Collection.php
+END
+Rate.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Mysql4/Calculation/Rate.php
+END

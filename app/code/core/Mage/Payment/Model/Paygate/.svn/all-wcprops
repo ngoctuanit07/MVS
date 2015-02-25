@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Paygate
+END
+Result.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Paygate/Result.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Paygate/Request.php
+END

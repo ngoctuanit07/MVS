@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/payment/info
+END
+banktransfer.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/payment/info/banktransfer.phtml
+END
+checkmo.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/payment/info/checkmo.phtml
+END
+purchaseorder.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/payment/info/purchaseorder.phtml
+END
+default.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/payment/info/default.phtml
+END

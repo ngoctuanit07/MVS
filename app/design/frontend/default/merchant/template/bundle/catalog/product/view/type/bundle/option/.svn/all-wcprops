@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/bundle/catalog/product/view/type/bundle/option
+END
+checkbox.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/bundle/catalog/product/view/type/bundle/option/checkbox.phtml
+END
+multi.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/bundle/catalog/product/view/type/bundle/option/multi.phtml
+END
+radio.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/bundle/catalog/product/view/type/bundle/option/radio.phtml
+END
+select.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/bundle/catalog/product/view/type/bundle/option/select.phtml
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab
+END
+OfflineCatalog.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/OfflineCatalog.php
+END
+Payment.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Payment.php
+END
+General.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/General.php
+END
+Content.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Content.php
+END
+Notification.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Notification.php
+END
+Flurryanalytics.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Flurryanalytics.php
+END
+Social.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Social.php
+END
+Design.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Design.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Cache.php
+END
+Settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/Settings.php
+END

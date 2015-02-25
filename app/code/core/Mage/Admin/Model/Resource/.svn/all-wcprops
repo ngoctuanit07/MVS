@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Admin/Model/Resource
+END
+Role.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Admin/Model/Resource/Role.php
+END
+Rules.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Admin/Model/Resource/Rules.php
+END
+Acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Admin/Model/Resource/Acl.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Admin/Model/Resource/User.php
+END
+Roles.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Admin/Model/Resource/Roles.php
+END

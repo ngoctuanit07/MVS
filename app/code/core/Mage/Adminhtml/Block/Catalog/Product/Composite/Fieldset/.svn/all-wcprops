@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Composite/Fieldset
+END
+Qty.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Composite/Fieldset/Qty.php
+END
+Configurable.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Composite/Fieldset/Configurable.php
+END
+Options.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Composite/Fieldset/Options.php
+END
+Grouped.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Composite/Fieldset/Grouped.php
+END

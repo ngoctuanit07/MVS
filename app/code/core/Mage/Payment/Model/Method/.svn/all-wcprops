@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method
+END
+Cashondelivery.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Cashondelivery.php
+END
+Banktransfer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Banktransfer.php
+END
+Checkmo.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Checkmo.php
+END
+Free.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Free.php
+END
+Ccsave.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Ccsave.php
+END
+Purchaseorder.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Purchaseorder.php
+END
+Cc.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Cc.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Model/Method/Abstract.php
+END

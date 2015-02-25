@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Exception.php
+END
+Archive.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Archive.php
+END
+Backup.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Backup.php
+END

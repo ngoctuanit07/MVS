@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Mysql4/Rule
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Mysql4/Rule/Collection.php
+END
+Customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Mysql4/Rule/Customer.php
+END
+Product.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Mysql4/Rule/Product.php
+END

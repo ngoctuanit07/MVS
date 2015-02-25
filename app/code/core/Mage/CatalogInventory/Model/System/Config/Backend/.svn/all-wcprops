@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogInventory/Model/System/Config/Backend
+END
+Qtyincrements.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogInventory/Model/System/Config/Backend/Qtyincrements.php
+END
+Minsaleqty.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogInventory/Model/System/Config/Backend/Minsaleqty.php
+END
+Minqty.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogInventory/Model/System/Config/Backend/Minqty.php
+END

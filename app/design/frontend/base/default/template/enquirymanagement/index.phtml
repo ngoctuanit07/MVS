@@ -1,0 +1,69 @@
+<style type="text/css">
+.lableninput
+{
+padding:5px;
+}
+label 
+{
+	margin-right:10px;
+	width:10em;
+	float:left;
+}
+</style>
+<form method="post" action="<?php echo Mage::getUrl('enquirymanagement/index/save')?>" id="product_enquiry" name="product_enquiry">
+<fieldset>
+<?php 
+$status = false;
+$status = Mage::getSingleton( 'customer/session' )->isLoggedIn();
+
+if($status)
+{
+$customer = Mage::getSingleton('customer/session')->getCustomer();
+$email = $customer->getEmail();
+$fullname = $customer->getName();?>
+<input type="hidden" value ="<?php echo $email ?>" name="email">
+<input type="hidden" value ="<?php echo $fullname ?>" name="name">
+<?php 
+}
+else 
+{
+?>
+<div class="lableninput">
+<label for="name"><?php echo $this->__('Name') ?></label>
+<input type="text" name="name" class="required-entry"/>
+</div>
+<div style="clear:both"></div>
+
+<div class="lableninput">
+<label for="email"><?php echo $this->__('Email') ?></label>
+<input type="email" name="email" class="required-entry"/>
+</div>
+<div style="clear:both"></div>
+<?php 
+}
+?>
+<input type="hidden" name="product_id" /><!-- current product id -->
+<input type="hidden" name="website_id" value="<?php echo Mage::app()->getWebsite()->getId(); ?>" /><!-- current website id -->
+
+<div class="lableninput">
+<label for="subject"><?php echo $this->__('subject') ?></label>
+<input type="text" name="subject" maxlength="150" class=""/>
+</div>
+<div style="clear:both"></div>
+
+
+<div class="lableninput">
+<label for="message"><?php echo $this->__('Message') ?></label>
+<textarea rows="5" cols="30" maxlength="1000"  name="message" class="required-entry">
+</textarea>
+</div>
+<div style="clear:both"></div>
+<input type="submit" value ="send enquiry"> 
+</fieldset>
+</form>
+
+ <script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('product_enquiry', true)
+    //]]>
+    </script>

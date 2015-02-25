@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rule/Model/Condition
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rule/Model/Condition/Interface.php
+END
+Combine.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rule/Model/Condition/Combine.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Rule/Model/Condition/Abstract.php
+END

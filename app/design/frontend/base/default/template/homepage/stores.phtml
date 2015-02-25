@@ -1,0 +1,60 @@
+<?php 
+$db = Mage::getSingleton('core/resource')->getConnection('core_write');
+$db->exec("SET @@session.wait_timeout = 1200");
+
+$query="select a.*,b.* from core_website as a left join logo as b on a.website_id=b.website where a.website_id not in(0,1) order by a.name";
+$stmt=$db->query($query);
+$stmt->execute();
+$res = $stmt->fetchAll();
+
+//echo "<pre>";print_r($res);
+//die;
+$query1="select * from logo where website='1'";
+$stmt1=$db->query($query1);
+$stmt1->execute();
+$res1 = $stmt1->fetch();
+
+//echo "<pre>";print_r($res1);
+
+$logo_main=$res1['image'];
+
+?>
+
+<div class="products-block hover-block">
+            <div class="page-title">
+              <h1><?php echo $this->__('View Stores')?></h1>
+            </div>
+            
+            
+            <ul class="products-grid Stores first last odd">
+            
+            <?php foreach($res as $key=>$value) {
+             if($value['website_id']!='1') :
+            	$logo =	$value['image'];
+            	if($logo=='')
+            	{
+            		$logo=$logo_main;
+            	}
+            	$logo_url=Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$logo;
+            	
+            	$website_id = $value['website_id'];
+            	$website = Mage::app()->getWebsite($website_id);
+            	$storeId=$website->getDefaultGroup()->getDefaultStore()->getId(); 
+				$store_url=Mage::getModel('core/store')->load($storeId)->getUrl('');
+            	
+            ?>
+            
+              <li class="item first">
+                <a target="_blank" class="product-image" title="Stores" href="<?php echo $store_url;?>">
+                  <span class="Stores-logo"><img alt="" src="<?php echo $logo_url?>"></span>
+                  <h2 class="product-name"><?php echo $value['name'];?></h2>
+                </a>
+              </li>
+             <?php
+				endif;
+             } ?>
+              
+            </ul>
+            <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+            <div class="clear"></div>
+          </div>

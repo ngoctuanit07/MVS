@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Soap
+END
+AutoDiscover.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Soap/AutoDiscover.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Soap/Client.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Soap/Server.php
+END
+Wsdl.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Soap/Wsdl.php
+END

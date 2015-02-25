@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/widget/new/column
+END
+new_names_list.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/widget/new/column/new_names_list.phtml
+END
+new_images_list.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/widget/new/column/new_images_list.phtml
+END
+new_default_list.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/widget/new/column/new_default_list.phtml
+END

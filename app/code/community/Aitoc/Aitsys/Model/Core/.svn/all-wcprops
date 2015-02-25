@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Core
+END
+Database.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Core/Database.php
+END
+Filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Core/Filesystem.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Core/Cache.php
+END

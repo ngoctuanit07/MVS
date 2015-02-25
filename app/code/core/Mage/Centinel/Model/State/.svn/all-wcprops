@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/State
+END
+Jcb.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/State/Jcb.php
+END
+Visa.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/State/Visa.php
+END
+Mastercard.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/State/Mastercard.php
+END

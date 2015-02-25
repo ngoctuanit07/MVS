@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Licentia Pictura - Banner Management
+ *
+ * NOTICE OF LICENSE
+ * This source file is subject to the European Union Public Licence
+ * It is available through the world-wide-web at this URL:
+ * http://joinup.ec.europa.eu/software/page/eupl/licence-eupl
+ *
+ * @title      Background Management
+ * @category   Marketing
+ * @package    Licentia
+ * @author     Bento Vilas Boas <bento@licentia.pt>
+ * @copyright  Copyright (c) 2014 Licentia - http://licentia.pt
+ * @license    European Union Public Licence
+ */
+-->
+<config>
+    <modules>
+        <Licentia_Pictura>
+            <version>1.0.0.0</version>
+        </Licentia_Pictura>
+    </modules>
+    <frontend>
+        <routers>
+            <pictura>
+                <use>standard</use>
+                <args>
+                    <module>Licentia_Pictura</module>
+                    <frontName>pictura</frontName>
+                </args>
+            </pictura>
+        </routers>
+        <layout>
+            <updates>
+                <pictura>
+                    <file>pictura.xml</file>
+                </pictura>
+            </updates>
+        </layout>
+        <events>
+            <sales_order_place_after>
+                <observers>
+                    <check_conversion>
+                        <class>pictura/observer</class>
+                        <method>afterOrder</method>
+                    </check_conversion>
+                </observers>
+            </sales_order_place_after>
+            <controller_action_predispatch>
+                <observers>
+                    <check_conversion>
+                        <class>pictura/observer</class>
+                        <method>startConversion</method>
+                    </check_conversion>
+                </observers>
+            </controller_action_predispatch>
+        </events>
+    </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <pictura before="Mage_Adminhtml">Licentia_Pictura_Adminhtml</pictura>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Licentia_Pictura>
+                    <files>
+                        <default>Licentia_Pictura.csv</default>
+                    </files>
+                </Licentia_Pictura>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <pictura>
+                    <file>pictura.xml</file>
+                </pictura>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <models>
+            <pictura>
+                <class>Licentia_Pictura_Model</class>
+                <resourceModel>pictura_mysql4</resourceModel>
+            </pictura>
+            <pictura_mysql4>
+                <class>Licentia_Pictura_Model_Mysql4</class>
+                <entities>
+                    <banners>
+                        <table>pictura_banners</table>
+                    </banners>
+                    <content>
+                        <table>pictura_content</table>
+                    </content>
+                    <logs>
+                        <table>pictura_logs</table>
+                    </logs>
+                    <segments>
+                        <table>pictura_segments</table>
+                    </segments>
+                    <cart>
+                        <table>pictura_rules_cart</table>
+                    </cart>
+                    <catalog>
+                        <table>pictura_rules_catalog</table>
+                    </catalog>
+                    <positions>
+                        <table>pictura_positions</table>
+                    </positions>
+                </entities>
+            </pictura_mysql4>
+        </models>
+        <resources>
+            <pictura_setup>
+                <setup>
+                    <module>Licentia_Pictura</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+            </pictura_setup>
+        </resources>
+        <blocks>
+            <pictura>
+                <class>Licentia_Pictura_Block</class>
+            </pictura>
+        </blocks>
+        <helpers>
+            <pictura>
+                <class>Licentia_Pictura_Helper</class>
+            </pictura>
+        </helpers>
+    </global>
+    <default>
+        <pictura>
+            <config>
+                <param>bid</param>
+            </config>
+        </pictura>
+    </default>
+</config>

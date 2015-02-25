@@ -1,0 +1,553 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="page-title">
+    <h1><?php echo $this->__('Your order has been received.') ?></h1>
+</div>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+<h2 class="sub-title"><?php echo $this->__('Thank you for your purchase!') ?></h2>
+<?php $orderid = $this->getOrderId() ?>
+<?php if ($this->getOrderId()):?>
+<?php if ($this->getCanViewOrder()) :?>
+    <p><?php echo $this->__('Your order # is: %s.', sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getViewOrderUrl()), $this->escapeHtml($this->getOrderId()))) ?></p>
+<?php  else :?>
+    <p><?php echo $this->__('Your order # is: %s.', $this->escapeHtml($this->getOrderId())) ?></p>
+<?php endif;?>
+    <p><?php echo $this->__('You will receive an order confirmation email with details of your order and a link to track its progress.') ?></p>
+<?php if ($this->getCanViewOrder() && $this->getCanPrintOrder()) :?>
+    <p>
+        <?php echo $this->__('Click <a href="%s" onclick="this.target=\'_blank\'">here to print</a> a copy of your order confirmation.', $this->getPrintUrl()) ?>
+        <?php echo $this->getChildHtml() ?>
+    </p>
+<?php endif;?>
+<?php endif;?>
+
+<?php if ($this->getAgreementRefId()): ?>
+    <p><?php echo $this->__('Your billing agreement # is: %s.', sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getAgreementUrl()), $this->escapeHtml($this->getAgreementRefId())))?></p>
+<?php endif;?>
+
+<?php if ($profiles = $this->getRecurringProfiles()):?>
+<p><?php echo $this->__('Your recurring payment profiles:'); ?></p>
+<ul class="disc">
+<?php foreach($profiles as $profile):?>
+<?php $profileIdHtml = ($this->getCanViewProfiles() ? sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getProfileUrl($profile)), $this->escapeHtml($this->getObjectData($profile, 'reference_id'))) : $this->escapeHtml($this->getObjectData($profile, 'reference_id')));?>
+    <li><?php echo $this->__('Payment profile # %s: "%s".', $profileIdHtml, $this->escapeHtml($this->getObjectData($profile, 'schedule_description')))?></li>
+<?php endforeach;?>
+</ul>
+<?php endif;?>
+
+<div class="buttons-set">
+    <button type="button" class="button" title="<?php echo $this->__('Continue Shopping') ?>" onclick="window.location='<?php echo $this->getUrl() ?>'"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
+</div>
+<?php
+// Code For add event products Start
+$order_detail=Mage::getModel('sales/order')->loadByIncrementId($orderid);
+
+$orderItems = $order_detail->getItemsCollection()
+        ->addAttributeToSelect('*')
+        ->addAttributeToFilter('product_type', array('eq'=>'virtual'))
+        ->load();
+
+$order_data=$orderItems->getData();
+
+
+$virtual_product_id=$order_data[0]['product_id'];
+$event_id=Mage::getResourceModel('catalog/product')->getAttributeRawValue($virtual_product_id, 'eventid');
+
+if($event_id!='')
+{
+		$pro_options=unserialize($order_data[0]['product_options']);
+
+		$pro_options_array=$pro_options['options'];
+		
+		if(count($pro_options_array)>0)
+		{
+			foreach($pro_options_array as $value)
+			{
+		   		    $sku=$value['value'];
+				
+					$_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $sku);
+			     	if($_product)
+			     	{
+			     		$arr_web=$_product->getWebsiteIds();
+						$website_id = $arr_web[0];
+						
+						$post_data=array();
+						
+						$collection = Mage::getModel("event/event")->getCollection()->addFilter('id',$event_id);
+						$data1=$collection->getData();
+						
+						$post_data['event_id']=$event_id;
+						$post_data['event_name']=$event_id;
+						$post_data['sku']=$sku;
+						$post_data['event_method']=$data1[0]['event_method'];
+						$post_data['merchant_website']=$website_id;
+
+						$model = Mage::getModel("event/eventproduct")->addData($post_data)->save();
+						
+				}
+			}
+		}
+}
+
+// Code For add event products End
+$status = Mage::getSingleton( 'customer/session' )->isLoggedIn();
+	//merchant table insert code Start
+	$prod = Mage::getModel('catalog/product')->loadByAttribute('entity_id', $virtual_product_id);
+	//$planname = $prod->getResource()->getName();
+	$order_detail=Mage::getModel('sales/order')->loadByIncrementId($orderid);
+	//echo "<pre/>";
+	//print_r($order_detail->getCustomerId());
+	$customer = Mage::getModel('customer/customer')->load($order_detail->getCustomerId()); //insert cust ID
+	//$coustomerdata = array();
+	 foreach ($customer->getAddresses() as $address)
+	 {
+	    $addressdata = $address->toArray();
+	 }
+
+		$attribute = $prod->getResource()->getAttribute('plan');
+		if ($attribute)
+		{
+		    $is_plan = $attribute->getFrontend()->getValue($prod);
+		}
+		
+		if($is_plan=='Yes')
+		{
+			$fullname = $customer->getName();
+			$email = $customer->getEmail();
+			$name_array=explode(" ",$fullname);
+    		$first_name=$name_array[0];
+			$last_name=$name_array[1];
+			
+			if($last_name=='')
+			
+			{ $last_name='last'; }
+if(isset($_SESSION[customer][updateplan]))
+{
+	$customerData = Mage::getSingleton('customer/session')->getCustomer();
+	$store_email = $customerData->getEmail();
+	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+	$select = $connection->select()
+	->from ('merchant', array('*'))
+	->where ("email='$store_email' or email like '$store_email,%' or email like '%,$store_email,%' or email like '%,$store_email%' ");
+	$rowsArray = $connection->fetchAll($select);
+	$merchnatid = $rowsArray[0]['id'];
+	$_product = Mage::getModel('catalog/product')->load($virtual_product_id); //getting product object for particular product id
+	$newplanname= $_product->getName();
+	$newplanid= $_product->getId();
+	$updatedate = date('y:m:d');
+	``
+   	$numdays = Mage::getModel('catalog/product')->load($prod->getId())->getPlanDuration();
+   	$interval = 'INTERVAL '. "$numdays" .' DAY';
+   	//get plan end date
+   	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');//get merchant id
+    $select = $connection->select()
+    ->from('merchant_plan_info', 'end_date') // select * from tablename or use array('id','name') selected values
+    ->where('merchant_id=?',$merchnatid);
+    $rowsArray = $connection->fetchAll($select);
+	$currentlastdate=  $rowsArray[0]['end_date'];
+	$newDate=date('Y-m-d', strtotime($currentlastdate. ' + '."$numdays". 'days'));
+	//update in merchant plan info table
+	/*$connection = Mage::getSingleton('core/resource')->getConnection('core_write');
+	$connection->beginTransaction();
+	$fields = array();
+	$fields['plan_id'] = $newplanid;
+	$fields['end_date'] =  $newDate;
+	$fields['update_date'] = $updatedate;
+	$fields['max_sku'] = $maxsku;	
+	$where = $connection->quoteInto('merchant_id =?', $merchnatid);
+	$connection->update('merchant_plan_info', $fields, $where);
+	$connection->commit();*/
+	$resource = Mage::getSingleton('core/resource');
+	$readConnection = $resource->getConnection('core_read');
+	$merchant_plan_info_update ="UPDATE merchant_plan_info SET plan_id = '$newplanid', end_date = '$newDate', update_date = '$updatedate', max_sku = '$maxsku' WHERE merchant_id = '$merchnatid';";
+	$result = $readConnection->query($merchant_plan_info_update);
+	
+	
+	//update in merchant table			
+	$connection->beginTransaction();
+	$fields = array();
+	$fields['merchant_plan'] = $newplanname;
+	$where = $connection->quoteInto("email='$store_email' or email like '$store_email,%' or email like '%,$store_email,%' or email like '%,$store_email%' ");
+	$connection->update('merchant', $fields, $where);
+	$connection->commit();
+	
+}
+elseif( isset($_SESSION[customer][renewplan]))
+{
+	$customerData = Mage::getSingleton('customer/session')->getCustomer();
+	$store_email = $customerData->getEmail();
+	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+	$select = $connection->select()
+	->from ('merchant', array('*'))
+	->where ("email='$store_email' or email like '$store_email,%' or email like '%,$store_email,%' or email like '%,$store_email%' ");
+	$rowsArray = $connection->fetchAll($select);
+	$merchnatid = $rowsArray[0]['id'];
+	$_product = Mage::getModel('catalog/product')->load($virtual_product_id); //getting product object for particular product id
+	$newplanname= $_product->getName();
+	$newplanid= $_product->getId();
+	$updatedate = date('y:m:d');
+	$numdays = Mage::getModel('catalog/product')->load($prod->getId())->getPlanDuration();
+	
+	
+	//get plan end date
+   	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');//get merchant id
+    $select = $connection->select()
+    ->from('merchant_plan_info', 'end_date') // select * from tablename or use array('id','name') selected values
+    ->where('merchant_id=?',$merchnatid);
+    $rowsArray = $connection->fetchAll($select);
+	$currentlastdate=  $rowsArray[0]['end_date'];
+	$newDate=date('Y-m-d', strtotime($currentlastdate. ' + '."$numdays". 'days'));
+	
+	///insert into db
+	$resource = Mage::getSingleton('core/resource');
+	$readConnection = $resource->getConnection('core_read');
+	$merchant_plan_info_update ="UPDATE merchant_plan_info SET  end_date = '$newDate', update_date = '$updatedate' WHERE merchant_id = '$merchnatid';";
+	$result = $readConnection->query($merchant_plan_info_update);
+}
+else 
+{
+			
+			
+			  $assignmerchant = $customer->setGroupId('4');
+			  $storename= $_SESSION[customer][postarray][store_name];
+			  $fullname = $customer->getName();
+			  $store_alias= strtolower($_SESSION[customer][postarray][store_alias]);
+			  $store_email= $_SESSION[customer][postarray][email];
+			  $store_cat= $_SESSION[customer][postarray][business_category];
+			  $productid=$_SESSION[customer][postarray][merchant_plan];
+			  $model = Mage::getModel('catalog/product'); //getting product model
+			  $_product = $model->load($productid); //getting product object for particular product id
+			  $planname= $_product->getName(); //product name
+			  $store_ownername= $_SESSION[customer][postarray][owner_company_name];
+			  $store_regno= $_SESSION[customer][postarray][registration_no];
+			  $address = $addressdata['street'];
+			  $city = $addressdata['city'];
+			  $region = $addressdata['region_id'];
+			  //$region = Mage::getModel('directory/region')->load($regionId);
+			  //$state = $region->getName();
+			  $postalcode =$addressdata['postcode'];
+			  $country_id = $addressdata['country_id'];
+			 // $countryModel = Mage::getModel('directory/country')->loadByCode($country_id);
+			  $country=Mage::app()->getLocale()->getCountryTranslation($country_id);
+			  //$country = $countryModel->getName(); 
+			  $telephone = $addressdata['telephone'];
+			  $fax = $addressdata['fax'];
+			  
+			  
+			  $connection = Mage::getSingleton('core/resource')->getConnection('core_write');
+			  $connection->beginTransaction();
+			    $fields = array();
+			    $fields['name'] = $fullname;
+			    $fields['email'] = $store_email;
+			    $fields['store_name'] = $storename;
+			    $fields['store_alias'] = $store_alias;
+			  	$fields['business_category'] = $store_cat;
+			    $fields['merchant_plan'] = $productid;
+			    $fields['owner_company_name'] = $store_ownername;
+			    $fields['registration_no'] = $store_regno;
+			    $fields['address'] = $address;
+			    $fields['city'] = $city;
+			    $fields['state'] = $region;
+			    $fields['postcode'] = $postalcode;
+			    $fields['country'] = $country;
+			    $fields['telephone'] = $telephone;
+			    $fields['fax'] = $fax;
+			    $fields['status'] = '0';
+			    $connection->insert('merchant', $fields);
+				$connection->commit();
+			
+// update code in merchant info table
+				
+	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');//get merchant id
+    $select = $connection->select()
+    ->from('merchant', 'id')
+    ->where ("email='$store_email' or email like '$store_email,%' or email like '%,$store_email,%' or email like '%,$store_email%' ");
+    $rowArray = $connection->fetchRow($select);  //get merchant id from merchant
+    $insertid = $rowArray[id];
+  	$maxsku = Mage::getModel('catalog/product')->load($prod->getId())->getMaxSku();
+   	$numdays = Mage::getModel('catalog/product')->load($prod->getId())->getPlanDuration();
+    $startdate = date('y:m:d');   
+    $enddate = Date('y:m:d', strtotime("+".$numdays." days"));
+    $connection = Mage::getSingleton('core/resource')->getConnection('core_write');
+	$connection->beginTransaction();
+			    $fields = array();
+			    $fields['merchant_id'] = $insertid;
+			    $fields['plan_id'] = $virtual_product_id;
+			    $fields['start_date'] = $startdate;
+			    $fields['end_date'] = $enddate;
+			  	$fields['update_date'] = $startdate;
+			  	$fields['max_sku'] = $maxsku;
+			    $connection->insert('merchant_plan_info', $fields);
+				$connection->commit();
+    
+    //update group id of the coustomer 
+			$connection1 = Mage::getSingleton('core/resource')->getConnection('core_write');
+			$connection1->beginTransaction();
+			$fields = array();
+			$fields['group_id'] = '4';
+			$where = $connection->quoteInto('email =?', "$store_email");
+			$connection1->update('customer_entity', $fields, $where);
+			$connection1->commit();
+			
+			
+				//Create Website and Store Code Start
+		    
+			    $base_url=Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
+				$root_path=Mage::getBaseDir();
+				$base_url=Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
+				$skin_url= Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN);
+				$media_url= Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA); 
+				$js_url= Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_JS);
+				
+				$db = Mage::getSingleton('core/resource')->getConnection('core_write');
+				$db->exec("SET @@session.wait_timeout = 1200");
+				
+		    
+				$website_name=$store_alias;
+				$file_name=$root_path."/index_website.php";
+				$file_cng_path=$root_path."/".$website_name."/index.php";
+				
+				//Create Folder for website and copy 2 files Start
+				mkdir($root_path."/".$website_name, 0755);
+				copy($file_name, $file_cng_path);
+				copy($root_path."/.htaccess", $root_path."/".$website_name."/.htaccess");
+				//Create Folder for website and copy 2 End
+				
+				//Edit index.php file for change website name Start 
+				$filecontent=file_get_contents($file_cng_path);
+				$pos=strpos($filecontent, 'Mage::run($mageRunCode, $mageRunType)');
+				$string='Mage::run("'.$website_name.'", "website");';
+				$filecontent=substr($filecontent, 0, $pos)."\r\n".$string."\r\n".substr($filecontent, $pos);
+				$filecontent=str_replace('Mage::run($mageRunCode, $mageRunType);','',$filecontent);
+				file_put_contents($file_cng_path, $filecontent);
+				//Edit index.php file for change website name End
+				
+				//die;
+				//Create Website, store in admin Start 
+				
+				Mage::registry('isSecureArea');
+				//#addWebsite
+			    /** @var $website Mage_Core_Model_Website */
+			    $website = Mage::getModel('core/website');
+			    $website->setCode($website_name)
+			        ->setName($website_name)
+			        ->save();
+			        
+			        
+			    $write = Mage::getSingleton('core/resource')->getConnection('core_write');
+			
+			    $new_web_url=$base_url.$website_name."/";
+			
+			    //$site =  Mage::getModel('core/website')->getCollection()->getAllIds();
+			    //$website_id=max($site);
+			    $website_id=$website->getId();
+			    
+				// now $write is an instance of Zend_Db_Adapter_Abstract
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','web/unsecure/base_url','$new_web_url')");
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','web/unsecure/base_link_url','$new_web_url')");
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','web/unsecure/base_skin_url','$skin_url')");
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','web/unsecure/base_media_url','$media_url')");
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','web/unsecure/base_js_url','$js_url')");
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','design/theme/template','merchant')");
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','design/theme/skin','green')");
+				$write->query("insert into core_config_data (scope,scope_id,path,value)values ('websites','$website_id','design/theme/layout','merchant')");
+			    
+			
+					//#addStoreGroup
+			    	/* @var $storeGroup Mage_Core_Model_Store_Group */
+			    	
+			        $storeGroup = Mage::getModel('core/store_group');
+			    	$storeGroup->setWebsiteId($website->getId())
+			        ->setName($website_name)
+			        ->setRootCategoryId(2)
+			        ->save();
+			
+					//#addStore
+			    	/* @var $store Mage_Core_Model_Store */
+			    	$store = Mage::getModel('core/store');
+			    	$store->setCode($website_name.'_en')
+			        ->setWebsiteId($storeGroup->getWebsiteId())
+			        ->setGroupId($storeGroup->getId())
+			        ->setName('English')
+			        ->setIsActive(1)
+			        ->save();
+			        
+			        $store1 = Mage::getModel('core/store');
+			    	$store1->setCode($website_name.'_ma')
+			        ->setWebsiteId($storeGroup->getWebsiteId())
+			        ->setGroupId($storeGroup->getId())
+			        ->setName('Malay')
+			        ->setIsActive(1)
+			        ->save();
+			        
+			        $store2 = Mage::getModel('core/store');
+			    	$store2->setCode($website_name.'_jp')
+			        ->setWebsiteId($storeGroup->getWebsiteId())
+			        ->setGroupId($storeGroup->getId())
+			        ->setName('Chinese')
+			        ->setIsActive(1)
+			        ->save();
+			        
+			        //Create Website and store code End
+					
+		        
+				//Create Rule and User Code Start
+		
+				try {
+				$user = Mage::getModel('admin/user')
+						->setData(array(
+						'username'  => $store_alias,
+						'firstname' => $first_name,
+						'lastname'  => $last_name,
+						'email'     => $email,
+						'password'  => $store_alias.'@123',
+						'is_active' => 1
+						))->save();
+				} 
+				catch(Exception $e)
+				{
+					//echo $e->getMessage();
+					//exit;
+				}
+				
+				try {
+				//create new role
+				$role = Mage::getModel("admin/roles")
+				->setName($store_alias)
+				->setRoleType('G')
+				->save();
+				
+				$resources=array();
+				$resources = explode(',', '__root__,admin/dashboard,admin/system,admin/system/config,admin/system/config/general,admin/system/config/web,admin/system/config/design,admin/system/config/trans_email,admin/system/config/payment,admin/system/config/carriers,admin/system/config/paypal,admin/system/config/contacts,admin/system/cache,admin/system/index,admin/cms,admin/cms/block,admin/cms/page,admin/cms/page/save,admin/cms/page/delete,admin/customer,admin/customer/group,admin/customer/manage,admin/customer/online,admin/catalog,admin/catalog/categories,admin/catalog/products,admin/catalog/urlrewrite,admin/catalog/reviews_ratings,admin/catalog/reviews_ratings/reviews,admin/catalog/reviews_ratings/reviews/all,admin/catalog/reviews_ratings/reviews/pending,admin/catalog/reviews_ratings/ratings,admin/promo,admin/promo/catalog,admin/promo/quote,admin/sales,admin/sales/order,admin/sales/order/actions,admin/sales/order/actions/create,admin/sales/order/actions/view,admin/sales/order/actions/email,admin/sales/order/actions/reorder,admin/sales/order/actions/edit,admin/sales/order/actions/cancel,admin/sales/order/actions/review_payment,admin/sales/order/actions/capture,admin/sales/order/actions/invoice,admin/sales/order/actions/creditmemo,admin/sales/order/actions/hold,admin/sales/order/actions/unhold,admin/sales/order/actions/ship,admin/sales/order/actions/comment,admin/sales/order/actions/emails,admin/sales/invoice,admin/sales/shipment,admin/sales/creditmemo,admin/sales/recurring_profile,admin/sales/checkoutagreement,admin/logo,admin/logo/logo,admin/slider,admin/slider/slider,admin/webenquiry,admin/webenquiry/webenquiry');
+				
+				//give "all" privileges to role
+				Mage::getModel("admin/rules")
+				->setRoleId($role->getId())
+				->setResources($resources)
+				->saveRel();
+				} catch (Mage_Core_Exception $e) {
+					//echo $e->getMessage();
+					//exit;
+				} catch (Exception $e) {
+					//echo 'Error while saving role.';
+					//exit;
+				}
+				
+				
+				try {
+				//assign user to role
+				$user->setRoleIds(array($role->getId()))
+				->setRoleUserId($user->getUserId())
+				->saveRelations();
+				
+				$role_id=$role->getId();
+				
+				$store_model = Mage::getModel('core/store');
+				$store_ids=array();
+				$store_group_id=$storeGroup->getId();
+				$stores = $store_model->getCollection()->addGroupFilter($store_group_id);   //get the stores from the existing store group         
+				foreach ($stores as $_store):
+		    		$store_ids[] = $_store->getId(); //get store id
+					$store_id=$_store->getId();
+		    		$store_lang=substr($_store->getCode(),-2);
+					if($store_lang=='jp')
+					{
+						$write->query("insert into core_config_data(scope,scope_id,path,value)values ('stores','$store_id','general/locale/code','zh_CN')");	
+					}
+					if($store_lang=='ma')
+					{
+						$write->query("insert into core_config_data(scope,scope_id,path,value)values ('stores','$store_id','general/locale/code','ms_MY')");	
+					}                 
+				endforeach;
+				
+				$store_id_str=implode(",",$store_ids);
+				
+				$business_category=$store_cat;
+				$cat = Mage::getResourceModel('catalog/category_collection')->addFieldToFilter('name', $business_category);
+				$business_categoryid=$cat->getFirstItem()->getEntityId();
+				
+				$query="insert into aitoc_aitpermissions_advancedrole(role_id,website_id,store_id,storeview_ids,category_ids,can_edit_global_attr,can_edit_own_products_only,can_create_products)
+				VALUES($role_id,'0','$store_group_id','$store_id_str','$business_categoryid','1','0','1')";
+				$stmt=$db->query($query);
+				
+				} catch (Exception $e) {
+					//echo $e->getMessage();
+					//exit;
+				}			
+				//echo 'Admin User sucessfully created!<br /><br />';
+				//Create Rule and User Code End	
+				
+				
+			/* Merchant Mail Code End */
+			$base_url=Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
+			$store_url=$base_url.$store_alias;
+			$admin_url=$base_url.'admin';
+			$store_password=$store_alias."@123";
+			
+			$templateId = 4; // Id is that created in admin email template 
+
+			$from_email = Mage::getStoreConfig('trans_email/ident_general/email'); //fetch sender email Admin
+			$from_name = Mage::getStoreConfig('trans_email/ident_general/name'); //fetch sender name Admin
+			$coustomer_care = Mage::getStoreConfig('trans_email/ident_support/email'); //fetch sender email Admin
+			$phne_num = Mage::getStoreConfig('general/store_information/phone'); //fetch sender name Admin
+			$sender = Array('name' => $from_name,'email' => $from_email);
+			$storeId = Mage::app()->getStore()->getId();
+			//recipent info
+			$recepientEmail = $email;
+   			$recepientName = $fullname;
+			$vars = Array();
+			$vars = Array('customer_name'=>$fullname,'admin_url'=>$admin_url,'store_alias'=>$store_alias,'store_password'=>$store_password,'store_url'=>$store_url,'coustomer_care'=>$coustomer_care,'phne_num'=>$phne_num );
+			
+			$translate = Mage::getSingleton('core/translate');
+			Mage::getModel('core/email_template')->sendTransactional($templateId, $sender, $recepientEmail, $from_name, $vars, $storeId);
+			$translate->setTranslateInline(true); 
+			/* Merchant Mail Code End */
+			
+			/*super admin Mail Code Start */
+			$customer_name= Mage::getStoreConfig('trans_email/ident_general/name');
+			$templateId = 5; // Id is that created in admin email template 
+			$merchant_name = $fullname;
+			$sender = Array('name' => $from_name,'email' => $from_email);
+			//recipent info
+			$recepientEmail = Mage::getStoreConfig('trans_email/ident_general/email');
+   			$recepientName = Mage::getStoreConfig('trans_email/ident_general/name');
+			
+			$vars = Array();
+			$vars = Array('customer_name'=>$customer_name,'admin_url'=>$admin_url,'merchant_name'=>$merchant_name);
+			$translate = Mage::getSingleton('core/translate');
+			
+			Mage::getModel('core/email_template')->sendTransactional($templateId, $sender, $recepientEmail, $from_name, $vars, $storeId);
+			$translate->setTranslateInline(true); 
+			 /*super admin Mail Code End */
+				
+		}
+		}
+		    unset($_SESSION[customer][postarray]);
+		    unset($_SESSION[core][mercemail]);
+		    unset($_SESSION[customer][updateplan]);
+		    unset($_SESSION[customer][renewplan]);
+		    unset($_SESSION[core][mercomp]);

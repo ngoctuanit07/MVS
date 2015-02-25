@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block
+END
+Configuration.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Configuration.php
+END
+Homebanners.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Homebanners.php
+END
+ShoppingCart.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/ShoppingCart.php
+END
+Catalog.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog.php
+END
+Localization.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Localization.php
+END
+Home.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Home.php
+END
+Cart.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Cart.php
+END
+Wishlist.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Wishlist.php
+END

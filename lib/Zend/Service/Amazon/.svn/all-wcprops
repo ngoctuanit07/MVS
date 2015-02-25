@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon
+END
+CustomerReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/CustomerReview.php
+END
+Authentication.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Authentication.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Image.php
+END
+Offer.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Offer.php
+END
+EditorialReview.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/EditorialReview.php
+END
+S3.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/S3.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Abstract.php
+END
+SimilarProduct.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/SimilarProduct.php
+END
+ResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/ResultSet.php
+END
+OfferSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/OfferSet.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Query.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Exception.php
+END
+SimpleDb.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/SimpleDb.php
+END
+Accessories.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Accessories.php
+END
+ListmaniaList.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/ListmaniaList.php
+END
+Item.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Item.php
+END
+Ec2.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Ec2.php
+END
+Sqs.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Service/Amazon/Sqs.php
+END

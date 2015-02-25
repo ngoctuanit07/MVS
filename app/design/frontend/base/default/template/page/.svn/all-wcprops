@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/398/trunk/app/design/frontend/base/default/template/page
+END
+1column.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/318/trunk/app/design/frontend/base/default/template/page/1column.phtml
+END
+2columns-left.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/318/trunk/app/design/frontend/base/default/template/page/2columns-left.phtml
+END
+2columns-right.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/318/trunk/app/design/frontend/base/default/template/page/2columns-right.phtml
+END
+3columns.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/59/trunk/app/design/frontend/base/default/template/page/3columns.phtml
+END
+redirect.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/page/redirect.phtml
+END
+popup.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/page/popup.phtml
+END
+print.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/page/print.phtml
+END
+empty.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/page/empty.phtml
+END

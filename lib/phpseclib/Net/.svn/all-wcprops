@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/phpseclib/Net
+END
+SSH1.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/phpseclib/Net/SSH1.php
+END
+SSH2.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/phpseclib/Net/SSH2.php
+END
+SFTP.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/phpseclib/Net/SFTP.php
+END

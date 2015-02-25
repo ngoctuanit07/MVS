@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/view
+END
+media.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/211/trunk/app/design/frontend/default/merchant/template/catalog/product/view/media.phtml
+END
+price_clone.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/view/price_clone.phtml
+END
+attributes.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/usvn/public/svn/eshoppingmall/!svn/ver/219/trunk/app/design/frontend/default/merchant/template/catalog/product/view/attributes.phtml
+END
+additional.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/view/additional.phtml
+END
+price.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/view/price.phtml
+END
+description.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/434/trunk/app/design/frontend/default/merchant/template/catalog/product/view/description.phtml
+END
+addtocart.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/usvn/public/svn/eshoppingmall/!svn/ver/217/trunk/app/design/frontend/default/merchant/template/catalog/product/view/addtocart.phtml
+END
+tierprices.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/view/tierprices.phtml
+END
+addto.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/211/trunk/app/design/frontend/default/merchant/template/catalog/product/view/addto.phtml
+END
+options.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/catalog/product/view/options.phtml
+END

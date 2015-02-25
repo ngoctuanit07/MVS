@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/paypal/payflowlink
+END
+form.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/paypal/payflowlink/form.phtml
+END
+iframe.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/paypal/payflowlink/iframe.phtml
+END
+redirect.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/paypal/payflowlink/redirect.phtml
+END
+info.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/paypal/payflowlink/info.phtml
+END

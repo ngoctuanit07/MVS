@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping
+END
+success.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/success.phtml
+END
+overview.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/overview.phtml
+END
+agreements.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/agreements.phtml
+END
+link.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/link.phtml
+END
+billing.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/billing.phtml
+END
+shipping.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/shipping.phtml
+END
+state.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/state.phtml
+END
+addresses.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/checkout/multishipping/addresses.phtml
+END

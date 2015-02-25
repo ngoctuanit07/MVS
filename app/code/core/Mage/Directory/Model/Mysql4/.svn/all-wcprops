@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Directory/Model/Mysql4
+END
+Country.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Directory/Model/Mysql4/Country.php
+END
+Currency.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Directory/Model/Mysql4/Currency.php
+END
+Region.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Directory/Model/Mysql4/Region.php
+END

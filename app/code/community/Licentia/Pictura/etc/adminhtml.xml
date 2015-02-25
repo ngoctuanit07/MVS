@@ -1,0 +1,29 @@
+<config>
+    <menu>
+        <cms translate="title">
+            <children>
+                <pictura translate="title" module="pictura">
+                    <title>Banners</title>
+                    <sort_order>2000</sort_order>
+                    <action>adminhtml/pictura_banners</action>
+                </pictura>
+            </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <pictura translate="title" module="pictura">
+                                <title>Banners</title>
+                                <sort_order>2000</sort_order>
+                            </pictura>
+                        </children>
+                    </cms>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

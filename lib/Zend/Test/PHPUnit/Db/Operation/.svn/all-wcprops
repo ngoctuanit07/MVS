@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Test/PHPUnit/Db/Operation
+END
+DeleteAll.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Test/PHPUnit/Db/Operation/DeleteAll.php
+END
+Truncate.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Test/PHPUnit/Db/Operation/Truncate.php
+END
+Insert.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Test/PHPUnit/Db/Operation/Insert.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogSearch/Model/Mysql4/Fulltext
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogSearch/Model/Mysql4/Fulltext/Collection.php
+END
+Engine.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogSearch/Model/Mysql4/Fulltext/Engine.php
+END

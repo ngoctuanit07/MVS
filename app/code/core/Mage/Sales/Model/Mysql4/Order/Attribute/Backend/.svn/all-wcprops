@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Order/Attribute/Backend
+END
+Parent.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Order/Attribute/Backend/Parent.php
+END
+Billing.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Order/Attribute/Backend/Billing.php
+END
+Child.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Order/Attribute/Backend/Child.php
+END
+Shipping.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Mysql4/Order/Attribute/Backend/Shipping.php
+END

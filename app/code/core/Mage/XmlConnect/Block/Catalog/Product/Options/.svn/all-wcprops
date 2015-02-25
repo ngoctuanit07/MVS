@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options
+END
+Configurable.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Configurable.php
+END
+Virtual.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Virtual.php
+END
+Grouped.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Grouped.php
+END
+Giftcard.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Giftcard.php
+END
+Bundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Bundle.php
+END
+Simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Simple.php
+END
+Downloadable.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Downloadable.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Amf/Parse
+END
+InputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Amf/Parse/InputStream.php
+END
+TypeLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Amf/Parse/TypeLoader.php
+END
+OutputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Amf/Parse/OutputStream.php
+END
+Serializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Amf/Parse/Serializer.php
+END
+Deserializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Amf/Parse/Deserializer.php
+END

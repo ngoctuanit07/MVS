@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Sales/Order/Invoice
+END
+Create.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Sales/Order/Invoice/Create.php
+END
+Totals.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Sales/Order/Invoice/Totals.php
+END
+View.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Sales/Order/Invoice/View.php
+END

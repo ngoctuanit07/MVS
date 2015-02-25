@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/payment/form
+END
+cashondelivery.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/payment/form/cashondelivery.phtml
+END
+banktransfer.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/payment/form/banktransfer.phtml
+END
+checkmo.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/payment/form/checkmo.phtml
+END
+ccsave.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/payment/form/ccsave.phtml
+END
+purchaseorder.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/payment/form/purchaseorder.phtml
+END
+cc.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/payment/form/cc.phtml
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter
+END
+PythonPickle.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/PythonPickle.php
+END
+Amf0.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/Amf0.php
+END
+Json.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/Json.php
+END
+PhpSerialize.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/PhpSerialize.php
+END
+Amf3.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/Amf3.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/AdapterInterface.php
+END
+Igbinary.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/Igbinary.php
+END
+AdapterAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/AdapterAbstract.php
+END
+Wddx.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/Wddx.php
+END
+PhpCode.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer/Adapter/PhpCode.php
+END

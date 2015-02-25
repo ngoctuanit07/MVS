@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite
+END
+CatalogProduct.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/CatalogProduct.php
+END
+AdminhtmlConfigData.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/AdminhtmlConfigData.php
+END
+CatalogCategory.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/CatalogCategory.php
+END
+CatalogProductStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/CatalogProductStatus.php
+END
+CatalogModelResourceEavMysql4CategoryTree.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/CatalogModelResourceEavMysql4CategoryTree.php
+END
+CoreWebsiteCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/CoreWebsiteCollection.php
+END
+CatalogProductAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/CatalogProductAction.php
+END
+AdminSalesOrderCreate.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/AdminSalesOrderCreate.php
+END
+AdminSystemConfigSourceWebsite.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/AdminSystemConfigSourceWebsite.php
+END
+AdminSystemStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Rewrite/AdminSystemStore.php
+END

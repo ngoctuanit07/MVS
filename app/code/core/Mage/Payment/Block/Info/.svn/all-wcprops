@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Block/Info
+END
+Banktransfer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Block/Info/Banktransfer.php
+END
+Checkmo.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Block/Info/Checkmo.php
+END
+Ccsave.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Block/Info/Ccsave.php
+END
+Purchaseorder.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Block/Info/Purchaseorder.php
+END
+Cc.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Block/Info/Cc.php
+END
+Container.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Payment/Block/Info/Container.php
+END

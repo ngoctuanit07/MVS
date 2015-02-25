@@ -1,0 +1,90 @@
+<?php 
+$db = Mage::getSingleton('core/resource')->getConnection('core_write');
+$db->exec("SET @@session.wait_timeout = 1200");
+
+//date_default_timezone_set ('Asia/Calcutta');
+$date=date("Y-m-d H:i:s");
+
+//$query="select a.*,b.*,a.event_name as event_name1 from event as a left join eventproduct as b on a.id=b.event_id where a.event_method='0' and b.status='0' and '".$date."' between `publish_start_date` and `publish_end_date` order by a.position";
+//$query="select a.event_name,b.sku from event as a left join eventproduct as b on a.id=b.event_id where a.event_method='1' and b.status='0' and '".$date."' between `publish_start_date` and `publish_end_date` order by a.position";
+
+$query="select * from event where event_method='2' and '".$date."' between `publish_start_date` and `publish_end_date` order by position";
+$stmt=$db->query($query);
+$stmt->execute();
+$res = $stmt->fetchAll();
+?>
+
+
+<div class="tabs">
+<?php
+$i=1;
+foreach($res as $key=>$value) {?>
+
+		<?php 
+		$query1="select sku from eventproduct where event_id='".$value['id']."' and status='0'";
+		$stmt1=$db->query($query1);
+		$stmt1->execute();
+		$res1 = $stmt1->fetchAll();
+		
+		$count_pro=$stmt1->rowCount();
+		?>  
+
+<?php if($count_pro!=0) {?>   
+
+        <div class="tab">
+          <input type="radio" checked="checked" name="tab-group-2" id="tab-<?php echo $i;?>">
+          <label for="tab-<?php echo $i;?>"><?php echo $value['event_name'];?></label>
+          <div class="content-tab">
+            <div class="featured products-block hover-block">
+              <div class="block-slide">
+                <div class="clear"></div>
+              <div class="slides-viewport">
+              <ul class="products slides">
+                  
+                 
+        
+	        <?php foreach($res1 as $key1=>$value1) {
+	            	$sku=$value1['sku'];
+
+	            	$_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $sku);
+           				if($_product)
+           				{
+							$product_name=$_product->getName();
+           					$price=$_product->getSpecialPrice();
+							if($price=='')
+							{
+								$price=$_product->getPrice();
+							}
+							$price = sprintf('%0.2f', $price);
+	           				$arr_web=$_product->getWebsiteIds();
+							$website_id = $arr_web[0];
+							$website = Mage::app()->getWebsite($website_id);
+							$default_store = $website->getDefaultGroup()->getDefaultStore()->getId();
+							$default_store = $website->getDefaultStore();
+							$url_obj = new Mage_Core_Model_Url();
+							$default_store_path = $url_obj->getBaseUrl(array('_store'=> $default_store->getCode()));
+					        $product_url=$default_store_path.$_product->getUrlPath();
+					        $product_image=$this->helper('catalog/image')->init($_product, 'image')->resize(150,100);
+					        $symbol=Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol();
+           		?>
+                  
+                  
+                  <li> <a class="product-image" title="<?php echo $product_name;?>" href="<?php echo $product_url;?>"><img width="218" height="150" alt="<?php echo $product_name;?>" src="<?php echo $product_image;?>" draggable="false"></a>
+                    <h2 class="product-name"><a class="product-name" title="<?php echo $product_name;?>" href="<?php echo $product_url;?>"><?php echo $product_name;?></a></h2>
+                    <div class="price-box"> <span class="regular-price"><?php echo $symbol.$price;?></span> </div>
+                    <div class="view-Store-bg"> <a href="<?php echo $product_url;?>"><?php echo $this->__('View')?></a> </div>
+                  </li>
+                  
+               <?php } 
+               $i++; }    ?>   
+                  
+                </ul></div><ul class="slides-direction-nav"><li><a href="#" class="slides-prev"><span></span></a></li><li><a href="#" class="slides-next"><span></span></a></li></ul></div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        
+	<?php } ?>
+<?php } ?>        
+        </div>
+       

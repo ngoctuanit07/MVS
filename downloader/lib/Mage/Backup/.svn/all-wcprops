@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Interface.php
+END
+Filesystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Filesystem.php
+END
+Db.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Db.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Exception.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Abstract.php
+END
+Nomedia.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Nomedia.php
+END
+Media.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Media.php
+END
+Snapshot.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Snapshot.php
+END

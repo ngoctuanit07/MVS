@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Session/Validator
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Session/Validator/Interface.php
+END
+HttpUserAgent.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Session/Validator/HttpUserAgent.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Session/Validator/Abstract.php
+END

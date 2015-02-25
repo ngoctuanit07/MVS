@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Reports/Model/Mysql4/Product/Index
+END
+Compared.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Reports/Model/Mysql4/Product/Index/Compared.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Reports/Model/Mysql4/Product/Index/Abstract.php
+END
+Viewed.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Reports/Model/Mysql4/Product/Index/Viewed.php
+END

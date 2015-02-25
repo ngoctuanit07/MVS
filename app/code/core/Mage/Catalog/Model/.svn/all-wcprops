@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Session.php
+END
+Observer.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Observer.php
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Factory.php
+END
+Design.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Design.php
+END
+Category.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Category.php
+END
+Url.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Url.php
+END
+Product.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Product.php
+END
+Layer.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Layer.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Abstract.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Config.php
+END
+Index.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Index.php
+END
+Convert.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Convert.php
+END

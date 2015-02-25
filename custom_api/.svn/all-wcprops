@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/usvn/public/svn/eshoppingmall/!svn/ver/114/trunk/custom_api
+END
+role.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/257/trunk/custom_api/role.php
+END
+merchant.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/usvn/public/svn/eshoppingmall/!svn/ver/359/trunk/custom_api/merchant.php
+END
+plan.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/481/trunk/custom_api/plan.php
+END
+design_update.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/155/trunk/custom_api/design_update.php
+END
+lang_update.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/public/svn/eshoppingmall/!svn/ver/308/trunk/custom_api/lang_update.php
+END
+Email_expiration_date.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/public/svn/eshoppingmall/!svn/ver/493/trunk/custom_api/Email_expiration_date.php
+END
+customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/3/trunk/custom_api/customer.php
+END
+category.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/18/trunk/custom_api/category.php
+END
+folder.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/357/trunk/custom_api/folder.php
+END
+product.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/306/trunk/custom_api/product.php
+END
+reindex.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/13/trunk/custom_api/reindex.php
+END
+media.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/53/trunk/custom_api/media.php
+END
+merchant_category.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/306/trunk/custom_api/merchant_category.php
+END
+merchant_customer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/270/trunk/custom_api/merchant_customer.php
+END

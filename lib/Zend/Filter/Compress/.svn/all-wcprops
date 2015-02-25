@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress
+END
+CompressInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/CompressInterface.php
+END
+Lzf.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/Lzf.php
+END
+Bz2.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/Bz2.php
+END
+Zip.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/Zip.php
+END
+Gz.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/Gz.php
+END
+Rar.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/Rar.php
+END
+CompressAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/CompressAbstract.php
+END
+Tar.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter/Compress/Tar.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/System/Config/Source/Tax
+END
+Country.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/System/Config/Source/Tax/Country.php
+END
+Region.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/System/Config/Source/Tax/Region.php
+END

@@ -1,0 +1,71 @@
+10
+
+dir
+2
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/lib/Magento/Db
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+Adapter
+dir
+
+Object
+dir
+
+Object.php
+file
+
+
+
+
+2014-05-01T06:17:16.000000Z
+b61d21392c22ed7c035d7232b05997b7
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3133
+
+Sql
+dir
+

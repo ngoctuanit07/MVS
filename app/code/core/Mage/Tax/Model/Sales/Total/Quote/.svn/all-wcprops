@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Sales/Total/Quote
+END
+Tax.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Sales/Total/Quote/Tax.php
+END
+Shipping.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Sales/Total/Quote/Shipping.php
+END
+Discount.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Sales/Total/Quote/Discount.php
+END
+Subtotal.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Tax/Model/Sales/Total/Quote/Subtotal.php
+END

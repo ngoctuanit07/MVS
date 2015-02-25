@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert/Adapter
+END
+Io.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert/Adapter/Io.php
+END
+Http.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert/Adapter/Http.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert/Adapter/Interface.php
+END
+Soap.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert/Adapter/Soap.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert/Adapter/Abstract.php
+END
+Std.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert/Adapter/Std.php
+END

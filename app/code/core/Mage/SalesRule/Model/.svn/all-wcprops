@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model
+END
+Coupon.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Coupon.php
+END
+Observer.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Observer.php
+END
+Rule.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Rule.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/SalesRule/Model/Validator.php
+END

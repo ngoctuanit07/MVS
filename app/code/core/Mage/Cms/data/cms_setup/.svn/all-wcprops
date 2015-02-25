@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Cms/data/cms_setup
+END
+data-install-1.6.0.0.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Cms/data/cms_setup/data-install-1.6.0.0.php
+END
+data-upgrade-1.6.0.0.0-1.6.0.0.1.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Cms/data/cms_setup/data-upgrade-1.6.0.0.0-1.6.0.0.1.php
+END
+data-upgrade-1.6.0.0.1-1.6.0.0.2.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Cms/data/cms_setup/data-upgrade-1.6.0.0.1-1.6.0.0.2.php
+END

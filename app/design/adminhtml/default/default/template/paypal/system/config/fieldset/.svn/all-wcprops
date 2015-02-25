@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/paypal/system/config/fieldset
+END
+global.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/paypal/system/config/fieldset/global.phtml
+END
+hint.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/paypal/system/config/fieldset/hint.phtml
+END
+store.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/paypal/system/config/fieldset/store.phtml
+END

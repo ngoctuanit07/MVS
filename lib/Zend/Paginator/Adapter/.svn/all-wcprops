@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator/Adapter
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator/Adapter/Null.php
+END
+Array.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator/Adapter/Array.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator/Adapter/Interface.php
+END
+DbSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator/Adapter/DbSelect.php
+END
+DbTableSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator/Adapter/DbTableSelect.php
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator/Adapter/Iterator.php
+END

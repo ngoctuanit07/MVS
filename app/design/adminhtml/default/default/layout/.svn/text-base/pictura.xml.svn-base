@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_pictura_banners_gridcart>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="pictura/adminhtml_banners_edit_tab_cart" name="admin.banners.cart.grid"/>
+        </block>
+    </adminhtml_pictura_banners_gridcart>
+    <adminhtml_pictura_banners_gridcatalog>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="pictura/adminhtml_banners_edit_tab_catalog" name="admin.banners.catalog.grid"/>
+        </block>
+    </adminhtml_pictura_banners_gridcatalog>
+    <adminhtml_pictura_banners_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="pictura/adminhtml_banners_grid" name="admin.banners.grid"/>
+        </block>
+    </adminhtml_pictura_banners_grid>
+    <adminhtml_pictura_logs_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="pictura/adminhtml_logs_grid" name="admin.logs.grid"/>
+        </block>
+    </adminhtml_pictura_logs_grid>
+</layout>

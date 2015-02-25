@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gapps/Extension
+END
+Quota.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gapps/Extension/Quota.php
+END
+Login.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gapps/Extension/Login.php
+END
+EmailList.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gapps/Extension/EmailList.php
+END
+Name.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gapps/Extension/Name.php
+END
+Nickname.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gapps/Extension/Nickname.php
+END
+Property.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gapps/Extension/Property.php
+END

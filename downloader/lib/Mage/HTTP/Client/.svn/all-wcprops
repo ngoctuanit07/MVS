@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/HTTP/Client
+END
+Curl.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/HTTP/Client/Curl.php
+END
+Socket.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/HTTP/Client/Socket.php
+END

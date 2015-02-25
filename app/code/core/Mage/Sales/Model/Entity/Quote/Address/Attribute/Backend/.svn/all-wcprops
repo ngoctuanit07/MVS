@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Entity/Quote/Address/Attribute/Backend
+END
+Parent.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Entity/Quote/Address/Attribute/Backend/Parent.php
+END
+Child.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Entity/Quote/Address/Attribute/Backend/Child.php
+END
+Region.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Sales/Model/Entity/Quote/Address/Attribute/Backend/Region.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Entity/Attribute/Source
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Boolean.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Interface.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Table.php
+END
+Store.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Store.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Abstract.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Config.php
+END

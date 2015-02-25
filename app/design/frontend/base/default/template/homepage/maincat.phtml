@@ -1,0 +1,32 @@
+<?php 
+ $currentCategorypage = Mage::getSingleton('catalog/layer')->getCurrentCategory()->getid() ?>
+
+
+<?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories = $_helper->getStoreCategories() ?>
+<?php $currentCategory = Mage::registry('current_category') ?>
+<?php if (count($_categories) > 0): ?>
+	 <div class="main-categories">
+            <h3><?php echo $this->__('Browse Categories')?></h3>
+            <?php $active = ""; ?>
+	<ul id="topnav">
+		<?php foreach($_categories as $_category): 
+		
+		if ($currentCategorypage == $_category->getid())
+		
+		{
+			$active = "active";
+		
+		}
+		?>
+	
+			<li class="level0 <?php echo $active;?>">
+				<a href="<?php echo $_helper->getCategoryUrl($_category) ?>">
+					<?php echo $_category->getName() ?>
+				</a>
+			</li>
+			
+		<?php unset($active); endforeach; ?>
+	</ul>
+</div>
+<?php endif; ?>

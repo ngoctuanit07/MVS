@@ -1,0 +1,81 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * @see Mage_Page_Block_Template_Links
+ */
+?>
+<?php $_links = $this->getLinks(); 
+ $status = Mage::getSingleton( 'customer/session' )->isLoggedIn();
+  $groupId = Mage::getSingleton('customer/session')->getCustomerGroupId();//get group id 
+?>
+<?php if(count($_links)>0):?>
+  <div class="top-block custom-links pull-right">
+  
+          <ul class="pull-right">
+         <?php if(!$status) { ?>
+      
+         <ul class="links top-links top-block pull-left regul" >         
+            <li> 
+            <a href="#"><?php echo $this->__('Register');?></a>
+            <ul>
+            <li> <a href="<?php echo $this->getUrl('merchant'); ?>"><?php echo $this->__('Merchant');?></a></li>
+            <li> <a href="<?php echo Mage::getUrl('customer/account/create'); ?>"><?php echo $this->__('Customer');?></a></li>
+            </ul>
+            </li>
+            </ul>
+            
+         	<li><a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>"><?php echo $this->__('Login');?></a></li>
+         	<li><a href="<?php echo Mage::getUrl('customer/account/forgotpassword') ?>"><?php echo $this->__('Forgot Password');?></a></li>
+            <?php } ?>
+            <?php if($status && $groupId =='4'){?>
+            <li><a href="<?php echo Mage::getUrl('sales/order/history'); ?>"><?php echo $this->__('My Orders');?></a></li>
+            <?php } ?>
+            <li><a href="<?php echo Mage::getUrl('stores'); ?>" class="view-stores"><?php echo $this->__('View Stores');?></a></li>
+          </ul>
+           <?php if($status){?>
+<ul class="links top-links top-block pull-right"<?php if($this->getName()): ?> id="<?php echo $this->getName() ?>"<?php endif;?>>
+  <li><a href="<?php echo Mage::helper('customer')->getAccountUrl ()?>"><?php echo $this->__('My Account')?></a>
+    	<ul>
+    	<?php if ($groupId!='4') {?>
+    	<li><a href ="<?php echo Mage::getBaseUrl()."customer/account/logout" ?>"><?php echo $this->__('Log Out')?></a></li>
+    	<?php }else {?>
+    	<?php foreach($_links as $_link):?>
+   			<?php if ($_link instanceof Mage_Core_Block_Abstract):?>
+            	<?php echo $_link->toHtml() ?>
+        	<?php else: ?>
+            	<li<?php if($_link->getIsFirst()||$_link->getIsLast()): ?> class="<?php if($_link->getIsFirst()): ?>first<?php endif; ?><?php if($_link->getIsLast()): ?> last<?php endif; ?>"<?php endif; ?> <?php echo $_link->getLiParams() ?>><?php echo $_link->getBeforeText() ?><a href="<?php echo $_link->getUrl() ?>" title="<?php echo $_link->getTitle() ?>" <?php echo $_link->getAParams() ?>><?php echo $_link->getLabel() ?></a><?php echo $_link->getAfterText() ?></li>
+        	<?php endif;?>
+    	<?php endforeach; } ?>
+	</ul>
+ </li>
+</ul>
+<?php }?>
+        </div>
+      
+ <div class="clear"></div>
+<?php endif; ?>

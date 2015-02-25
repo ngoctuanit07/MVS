@@ -1,0 +1,43 @@
+10
+
+dir
+405
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/code/local/Eshop/Slider
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-06-18T11:36:49.839783Z
+278
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+Block
+dir
+
+Helper
+dir
+
+Model
+dir
+
+controllers
+dir
+
+etc
+dir
+

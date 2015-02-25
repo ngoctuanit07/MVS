@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc
+END
+api.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc/api.xml
+END
+adminhtml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc/adminhtml.xml
+END
+wsi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc/wsi.xml
+END
+wsdl2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc/wsdl2.xml
+END
+system.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc/system.xml
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc/config.xml
+END
+wsdl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/etc/wsdl.xml
+END

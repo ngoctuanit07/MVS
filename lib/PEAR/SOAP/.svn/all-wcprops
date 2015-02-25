@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP
+END
+Transport.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP/Transport.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP/Client.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP/Parser.php
+END
+Base.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP/Base.php
+END
+Value.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP/Value.php
+END
+Fault.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP/Fault.php
+END
+WSDL.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/PEAR/SOAP/WSDL.php
+END

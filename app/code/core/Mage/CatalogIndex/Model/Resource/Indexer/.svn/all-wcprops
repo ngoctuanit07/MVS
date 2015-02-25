@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogIndex/Model/Resource/Indexer
+END
+Minimalprice.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogIndex/Model/Resource/Indexer/Minimalprice.php
+END
+Price.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogIndex/Model/Resource/Indexer/Price.php
+END
+Eav.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogIndex/Model/Resource/Indexer/Eav.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/CatalogIndex/Model/Resource/Indexer/Abstract.php
+END

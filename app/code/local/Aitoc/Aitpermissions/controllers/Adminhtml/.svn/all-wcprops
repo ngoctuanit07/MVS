@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/controllers/Adminhtml
+END
+CategoriesController.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/controllers/Adminhtml/CategoriesController.php
+END
+EditorController.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/controllers/Adminhtml/EditorController.php
+END
+CatalogProductController.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/controllers/Adminhtml/CatalogProductController.php
+END
+RoleController.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/controllers/Adminhtml/RoleController.php
+END

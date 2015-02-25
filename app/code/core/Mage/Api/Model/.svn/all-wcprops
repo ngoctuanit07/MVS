@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model
+END
+Role.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/Role.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/Session.php
+END
+Rules.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/Rules.php
+END
+Acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/Acl.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/User.php
+END
+Roles.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/Roles.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/Config.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/Model/Server.php
+END

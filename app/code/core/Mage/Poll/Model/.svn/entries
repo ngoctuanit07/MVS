@@ -1,0 +1,71 @@
+10
+
+dir
+4
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/code/core/Mage/Poll/Model
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+Mysql4
+dir
+
+Poll
+dir
+
+Poll.php
+file
+
+
+
+
+2014-05-01T06:16:19.000000Z
+68391855b2d3e6ede1f876b51c04b3ad
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7267
+
+Resource
+dir
+

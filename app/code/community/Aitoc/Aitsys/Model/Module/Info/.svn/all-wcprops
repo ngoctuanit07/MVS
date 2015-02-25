@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Module/Info
+END
+Package.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Module/Info/Package.php
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Module/Info/Factory.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Module/Info/Exception.php
+END
+Fallback.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Module/Info/Fallback.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Module/Info/Abstract.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Module/Info/Config.php
+END

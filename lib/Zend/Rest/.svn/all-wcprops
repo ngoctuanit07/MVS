@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Rest
+END
+Route.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Rest/Route.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Rest/Client.php
+END
+Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Rest/Controller.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Rest/Exception.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Rest/Server.php
+END

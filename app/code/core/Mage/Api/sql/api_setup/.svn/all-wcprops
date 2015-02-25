@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/sql/api_setup
+END
+install-1.6.0.0.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/sql/api_setup/install-1.6.0.0.php
+END
+mysql4-install-0.7.0.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/sql/api_setup/mysql4-install-0.7.0.php
+END
+mysql4-upgrade-0.7.0-0.7.1.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/sql/api_setup/mysql4-upgrade-0.7.0-0.7.1.php
+END
+mysql4-upgrade-0.8.0-0.8.1.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/sql/api_setup/mysql4-upgrade-0.8.0-0.8.1.php
+END
+mysql4-upgrade-1.5.9.9-1.6.0.0.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/sql/api_setup/mysql4-upgrade-1.5.9.9-1.6.0.0.php
+END
+mysql4-upgrade-1.6.0.0-1.6.0.1.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Api/sql/api_setup/mysql4-upgrade-1.6.0.0-1.6.0.1.php
+END

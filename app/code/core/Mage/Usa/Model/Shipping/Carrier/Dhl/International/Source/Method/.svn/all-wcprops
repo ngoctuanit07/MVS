@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method
+END
+Freenondoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method/Freenondoc.php
+END
+Doc.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method/Doc.php
+END
+Nondoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method/Nondoc.php
+END
+Freedoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method/Freedoc.php
+END
+Size.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method/Size.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method/Abstract.php
+END
+Unitofmeasure.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Dhl/International/Source/Method/Unitofmeasure.php
+END

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ES_ActiveReviewStars</name>
+    <version>1.1.4</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Active Review Stars by ElevenSoft module enables javascript stars to rate products in your magento store.</summary>
+    <description>Active Review Stars by ElevenSoft module  disable standard Magento rate system with radio buttons and enable dynamic stars, you can click on one of 5 stars to rate product. There are two modes, first is Full Mode which is used if exist more than one rate and display dynamic stars in standard Magento rating table, and single mode if you have only one rating (for example Quality). In single mode you can show label or just to show stars. This module work with multiple store, you can specify options for all stores individually if you want, or on website level.</description>
+    <notes>- Overwrite review/form module to set active review stars template globally, now module will work on all pages</notes>
+    <authors><author><name>Eleven Soft</name><user>auto-converted</user><email>support@eleven-soft.com</email></author></authors>
+    <date>2012-10-15</date>
+    <time>18:54:22</time>
+    <contents><target name="magecommunity"><dir name="ES"><dir name="ActiveReviewStars"><dir name="Block"><dir name="Review"><file name="Form.php" hash="2703e3445bc79ab02168d0419e80b41a"/></dir><file name="Review.php" hash="f2731d5b36d7353cf771663b6078b587"/></dir><dir name="Helper"><file name="Data.php" hash="633da636d96394ebb43f207dfd001d1b"/></dir><dir name="Model"><dir name="Source"><file name="Reviewmode.php" hash="3b23e044d3d9d64f9051798a7c2a9b0d"/></dir></dir><dir name="etc"><file name="config.xml" hash="12feb023a9c38316449eb72f72a1ed64"/><file name="system.xml" hash="2fab24ce77b5e3a5e054cd0f8cac4633"/></dir><file name=".DS_Store" hash="c0d704acfc339980f24060255ccfd69f"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ES_ActiveReviewStars.xml" hash="a758f07227ac379e6ca2866c468b54a3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="es_active_review_stars"><dir name="review"><file name="form.phtml" hash="e6c4ce119c273068c29b6a2c9ae189d0"/></dir></dir></dir><dir name="layout"><file name="es_active_review_stars.xml" hash="6c15b0e273e8ae9abed9d567bcb491c0"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="es_active_review_stars"><file name="delete.gif" hash="43e1045b71da619b1d7e53fb3217be93"/><file name="jquery.rating.css" hash="460fea8c38b330e18d5b676d042a3210"/><file name="star.gif" hash="3b7a845229f4041f5d8a18399f4c7357"/></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="es_active_review_stars"><file name="es_stars.js" hash="6f8ee27ebddbd7bcb596824d99ece746"/><file name="jquery-1.8.2.min.js" hash="6e156e0cd13bb315eb8d5bef75e65f5b"/><file name="jquery.rating.js" hash="47ec5c9cd5ceec89e623925edc222e9b"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

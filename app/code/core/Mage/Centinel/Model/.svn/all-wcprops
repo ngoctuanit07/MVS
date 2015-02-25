@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/Session.php
+END
+Observer.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/Observer.php
+END
+Api.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/Api.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/Config.php
+END
+StateAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/StateAbstract.php
+END
+Service.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Centinel/Model/Service.php
+END

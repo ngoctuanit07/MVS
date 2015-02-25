@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <event_adminhtml_event_index>
+	<reference name="content">
+	  <block type="event/adminhtml_event" name="event" />
+	</reference>
+  </event_adminhtml_event_index>
+  <event_adminhtml_eventproduct_index>
+	<reference name="content">
+	  <block type="event/adminhtml_eventproduct" name="eventproduct" />
+	</reference>
+  </event_adminhtml_eventproduct_index>
+</layout>

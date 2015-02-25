@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect
+END
+Package.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Package.php
+END
+Singleconfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Singleconfig.php
+END
+Repository.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Repository.php
+END
+Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Command.php
+END
+Packager.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Packager.php
+END
+Converter.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Converter.php
+END
+Ftp.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Ftp.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Config.php
+END
+Frontend.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Frontend.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Validator.php
+END
+Loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Loader.php
+END
+Rest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Mage/Connect/Rest.php
+END

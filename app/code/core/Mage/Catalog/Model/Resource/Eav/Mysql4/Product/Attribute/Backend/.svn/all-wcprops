@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Resource/Eav/Mysql4/Product/Attribute/Backend
+END
+Tierprice.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Resource/Eav/Mysql4/Product/Attribute/Backend/Tierprice.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Resource/Eav/Mysql4/Product/Attribute/Backend/Image.php
+END
+Urlkey.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Resource/Eav/Mysql4/Product/Attribute/Backend/Urlkey.php
+END
+Media.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Catalog/Model/Resource/Eav/Mysql4/Product/Attribute/Backend/Media.php
+END

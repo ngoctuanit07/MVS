@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/TimeSync
+END
+Sntp.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/TimeSync/Sntp.php
+END
+Protocol.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/TimeSync/Protocol.php
+END
+Ntp.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/TimeSync/Ntp.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/TimeSync/Exception.php
+END

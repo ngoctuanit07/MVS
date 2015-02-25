@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Attribute/Set/Main
+END
+Formattribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Attribute/Set/Main/Formattribute.php
+END
+Formgroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Attribute/Set/Main/Formgroup.php
+END
+Formset.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Attribute/Set/Main/Formset.php
+END

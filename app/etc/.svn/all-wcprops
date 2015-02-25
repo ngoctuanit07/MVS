@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/etc
+END
+local.xml.additional
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/etc/local.xml.additional
+END
+local.xml.template
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/etc/local.xml.template
+END
+local.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/15/trunk/app/etc/local.xml
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/etc/config.xml
+END

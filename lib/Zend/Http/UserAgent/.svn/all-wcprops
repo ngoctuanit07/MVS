@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent
+END
+Device.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Device.php
+END
+Console.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Console.php
+END
+AbstractDevice.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/AbstractDevice.php
+END
+Storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Storage.php
+END
+Desktop.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Desktop.php
+END
+Email.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Email.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Feed.php
+END
+Mobile.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Mobile.php
+END
+Offline.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Offline.php
+END
+Bot.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Bot.php
+END
+Spam.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Spam.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Text.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Exception.php
+END
+Probe.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Probe.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Validator.php
+END
+Checker.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Http/UserAgent/Checker.php
+END

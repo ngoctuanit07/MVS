@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors
+END
+404.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors/404.php
+END
+503.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors/503.php
+END
+local.xml.sample
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors/local.xml.sample
+END
+design.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors/design.xml
+END
+processor.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors/processor.php
+END
+report.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors/report.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/errors/.htaccess
+END

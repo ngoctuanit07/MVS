@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/Query.php
+END
+SnippetFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/SnippetFeed.php
+END
+SnippetQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/SnippetQuery.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/Feed.php
+END
+ItemEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/ItemEntry.php
+END
+ItemFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/ItemFeed.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/Entry.php
+END
+ItemQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/ItemQuery.php
+END
+SnippetEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata/Gbase/SnippetEntry.php
+END

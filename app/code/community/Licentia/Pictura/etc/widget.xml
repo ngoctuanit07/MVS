@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<widgets>
+    <pictura_banner_rotator type="pictura/widget_block" translate="name description" module="pictura">
+        <name>Banner Rotator</name>
+        <description>List of banners</description>
+        <parameters>
+            <btype translate="label">
+                <label>Banner Type</label>
+                <visible>1</visible>
+                <type>select</type>
+                <value>selected</value>
+                <values>
+                    <selected translate="label">
+                        <value>selected</value>
+                        <label>Selected Banners</label>
+                    </selected>
+                    <cart translate="label">
+                        <value>cart</value>
+                        <label>Cart Promotions</label>
+                    </cart>
+                    <catalog translate="label">
+                        <value>catalog</value>
+                        <label>Catalog Promotions</label>
+                    </catalog>
+                </values>
+            </btype>
+            <positions translate="label">
+                <label>Banner Positions</label>
+                <visible>1</visible>
+                <type>multiselect</type>
+                <values>
+                    <header translate="label">
+                        <value>header</value>
+                        <label>Header</label>
+                    </header>
+                    <footer translate="label">
+                        <value>footer</value>
+                        <label>Footer</label>
+                    </footer>
+                    <content translate="label">
+                        <value>content</value>
+                        <label>Content</label>
+                    </content>
+                    <left translate="label">
+                        <value>left</value>
+                        <label>Left</label>
+                    </left>
+                    <right translate="label">
+                        <value>right</value>
+                        <label>Right</label>
+                    </right>
+                </values>
+            </positions>
+            <unique_id>
+                <visible>0</visible>
+            </unique_id>
+            <banner_id type="complex" translate="label">
+                <visible>1</visible>
+                <label>Banners</label>
+                <type>label</type>
+                <depends>
+                    <btype>
+                        <value>selected</value>
+                    </btype>
+                </depends>
+                <helper_block>
+                    <type>pictura/widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Banners...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>20</sort_order>
+            </banner_id>
+        </parameters>
+    </pictura_banner_rotator>
+</widgets>

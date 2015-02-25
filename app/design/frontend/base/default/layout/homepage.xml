@@ -1,0 +1,13 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <homepage_index_index>   
+    <reference name="root">   
+      <action method="setTemplate"><template>page/1column.phtml</template></action>   
+    </reference>   
+    <reference name="content">   
+      <block type="homepage/index" name="homepage_index" template="homepage/index.phtml"/>   
+
+    </reference>   
+  </homepage_index_index>   
+</layout>   
+	

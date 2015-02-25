@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Eshop_WebEnquiry>
+      <version>0.1.0</version>
+    </Eshop_WebEnquiry>
+  </modules>
+  <frontend>
+    <routers>
+      <webenquiry>
+        <use>standard</use>
+          <args>
+            <module>Eshop_WebEnquiry</module>
+            <frontName>webenquiry</frontName>
+          </args>
+      </webenquiry>
+    </routers>
+		<layout>
+		  <updates>
+			<webenquiry>
+			  <file>webenquiry.xml</file>
+			</webenquiry>
+		  </updates>
+		</layout>
+  </frontend>
+  <global>
+    <helpers>
+      <webenquiry>
+        <class>Eshop_WebEnquiry_Helper</class>
+      </webenquiry>
+    </helpers>
+	<blocks>
+	  <webenquiry>
+		<class>Eshop_WebEnquiry_Block</class>
+	  </webenquiry>
+	</blocks>
+	<models>
+	  <webenquiry>
+		<class>Eshop_WebEnquiry_Model</class>
+		<resourceModel>webenquiry_mysql4</resourceModel>
+	  </webenquiry>
+	  <webenquiry_mysql4>
+		<class>Eshop_WebEnquiry_Model_Mysql4</class>
+		<entities>		  
+			  <webenquiry>
+				<table>webenquiry</table>
+			  </webenquiry>
+        </entities>
+	  </webenquiry_mysql4>
+	</models>
+	<resources>
+	  <webenquiry_setup>
+		<setup>
+		  <module>Eshop_WebEnquiry</module>
+		</setup>
+		<connection>
+		  <use>core_setup</use>
+		</connection>
+	  </webenquiry_setup>
+	  <webenquiry_write>
+		<connection>
+		  <use>core_write</use>
+		</connection>
+	  </webenquiry_write>
+	  <webenquiry_read>
+		<connection>
+		  <use>core_read</use>
+		</connection>
+	  </webenquiry_read>
+	</resources>
+  </global>
+  <admin>
+	<routers>
+	  <webenquiry>
+	    <use>admin</use>
+		<args>
+		  <module>Eshop_WebEnquiry</module>
+		  <frontName>webenquiry</frontName>
+		</args>
+	  </webenquiry>
+	</routers>
+  </admin>
+  <adminhtml>
+	<menu>
+	  <webenquiry module="webenquiry">
+		<title>Web Enquiry</title>
+		<sort_order>100</sort_order>
+		<children>
+		  <webenquiry module="webenquiry">
+		    <title>Manage Webenquiry</title>
+			<sort_order>0</sort_order>
+			<action>webenquiry/adminhtml_webenquiry</action>
+		  </webenquiry>
+		</children>
+	  </webenquiry>
+	</menu>
+	<acl>
+	  <resources>
+		<all>
+		  <title>Allow Everything</title>
+		</all>
+		<admin>
+		  <children>
+			<webenquiry translate="title" module="webenquiry">
+			  <title>Web Enquiry</title>
+			  <sort_order>1000</sort_order>
+			  <children>
+		  <webenquiry translate="title">
+			<title>Manage Webenquiry</title>
+			<sort_order>0</sort_order>
+		  </webenquiry>
+			  </children>
+			</webenquiry>
+		  </children>
+		</admin>
+	  </resources>
+	</acl>
+	<layout>
+	  <updates>
+		<webenquiry>
+		  <file>webenquiry.xml</file>
+		</webenquiry>
+	  </updates>
+	</layout>
+  </adminhtml>
+</config> 

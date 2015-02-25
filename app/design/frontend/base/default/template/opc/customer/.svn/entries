@@ -1,0 +1,34 @@
+10
+
+dir
+405
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/design/frontend/base/default/template/opc/customer
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-02T09:23:40.147356Z
+7
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+account
+dir
+
+form
+dir
+

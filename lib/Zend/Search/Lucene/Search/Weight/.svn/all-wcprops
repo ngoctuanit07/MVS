@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Search/Lucene/Search/Weight
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Search/Lucene/Search/Weight/Boolean.php
+END
+Phrase.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Search/Lucene/Search/Weight/Phrase.php
+END
+Term.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Search/Lucene/Search/Weight/Term.php
+END
+Empty.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Search/Lucene/Search/Weight/Empty.php
+END
+MultiTerm.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Search/Lucene/Search/Weight/MultiTerm.php
+END

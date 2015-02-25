@@ -1,0 +1,25 @@
+<?php
+$website_id= Mage::app()->getWebsite()->getId();
+$collection = Mage::getModel("slider/slider")->getCollection()->addFilter('website',$website_id); 
+$slidesdata = $collection->getData();
+if(!empty($slidesdata))
+{
+?>
+<div class="slider">
+   <ul>
+   <?php foreach ($slidesdata as $v1) {?>
+     <li><a href="<?php echo  $v1[weblink] ?>" ><img title="<?php echo  $v1[title] ?>" src="<?php echo  Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) ."$v1[filename]" ?>" alt="<?php echo  $v1[title] ?>" /></a></li>
+     <?php }?>
+   </ul>
+</div>
+<?php }
+else {
+?>
+       <div class="slider">
+            <ul>
+              <li><a href="#" target="_blank"><img title="Slide 1" src="<?php echo $this->getSkinUrl('images/slide1.jpg') ?>" alt="Slide 1" /></a></li>
+              <li><a href="#" target="_blank"><img title="Armani Exchange Watches" src="<?php echo $this->getSkinUrl('images/watches.jpg'); ?>" alt="Armani Exchange Watches" /></a></li>
+            </ul>
+          </div>
+          
+<?php } ?>

@@ -1,0 +1,123 @@
+10
+
+dir
+9
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/design/adminhtml/default/default/template/system
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+autocomplete.phtml
+file
+
+
+
+
+2014-05-01T06:15:45.000000Z
+105da6d2311f0f7b205a3c7648b0be44
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1393
+
+cache
+dir
+
+config
+dir
+
+convert
+dir
+
+currency
+dir
+
+design
+dir
+
+email
+dir
+
+info.phtml
+file
+
+
+
+
+2014-05-01T06:15:45.000000Z
+a6c1164a4c98c694c3e139635c59023b
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5996
+
+shipping
+dir
+
+store
+dir
+
+variable
+dir
+

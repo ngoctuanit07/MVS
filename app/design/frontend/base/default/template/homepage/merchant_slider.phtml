@@ -1,0 +1,95 @@
+
+<?php
+$website_id= Mage::app()->getWebsite()->getId();
+$collection = Mage::getModel("slider/slider")->getCollection()->addFilter('website',$website_id); 
+$slidesdata = $collection->getData();
+    if(!empty($slidesdata))   
+    {
+?>
+<div id="slider-sequence" class="homeslider">
+  <div class="sequence-prev"></div>
+  <!-- End sequence-prev-->
+  <div class="sequence-next"></div>
+  <!-- End sequence-next-->
+
+  <ul class="sequence-canvas">
+	   <?php
+	      $i=1;
+	    foreach ($slidesdata as $v1) 
+	   {
+		
+		   ?>
+    <li class="<?php echo "sequence-slide"."$i"?>">
+      <div class="sequencebg"> <img src="<?php echo  Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) ."$v1[filename]" ?>" alt="<?php echo  $v1[title] ?>" class="sequencebg-image"> </div>
+    </li>
+    <?php $i++;
+		}
+     ?>
+    
+ 
+  </ul>
+  <ul class="sequence-pagination">
+    <?php
+	      $i=1;
+	    foreach ($slidesdata as $v1) 
+	   { ?>
+    <li><?php echo "Frame " . "$i" ?></li>
+      <?php $i++;
+		}
+     ?>
+  </ul>
+  <?php ?>
+</div>
+<!-- End #slider-sequence -->
+<?php } else { ?>
+<div id="slider-sequence" class="homeslider">
+  <div class="sequence-prev"></div>
+  <!-- End sequence-prev-->
+  <div class="sequence-next"></div>
+  <!-- End sequence-next-->
+  <ul class="sequence-canvas">
+    <li class="sequence-slide1">
+      <div class="sequencebg"> <img src="<?php echo $this->getSkinUrl('images/homeslider/slide3.png')?>" alt="Slide 1 image" class="sequencebg-image"> </div>
+    </li>
+    <li class="sequence-slide2">
+      <div class="sequencebg"> <img src="<?php echo $this->getSkinUrl('images/homeslider/slide2.jpg')?>" alt="Slide 2 image" class="sequencebg-image"> </div>
+      <!-- End .sequencebg -->
+    </li>
+    <li class="sequence-slide3">
+      <div class="sequencebg"> <img src="<?php echo $this->getSkinUrl('images/homeslider/slide2.jpg')?>" alt="Slide 3 image" class="sequencebg-image"> </div>
+      <!-- End .sequencebg -->
+    </li>
+  </ul>
+  <ul class="sequence-pagination">
+    <li>Frame 1</li>
+    <li>Frame 2</li>
+    <li>Frame 3</li>
+  </ul>
+</div>
+<?php } ?>
+<div class="md-margin2x"></div>
+<!-- Space -->
+<script>
+    	$jq(function() {
+    		// Sequence.js Slider Plugin
+			var options = {
+				nextButton: true,
+				prevButton: true,
+				pagination:true,
+				autoPlay: true,
+				autoPlayDelay: 8500,
+				pauseOnHover: true,
+				preloader: true,
+				theme: 'slide',
+				speed: 700,
+				animateStartingFrameIn: true
+                },
+				homeSlider = $jq('#slider-sequence').sequence(options).data("sequence");
+    	
+    	});
+    </script>
+    
+    
+    
+    
+  

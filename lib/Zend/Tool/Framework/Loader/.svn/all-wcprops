@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Tool/Framework/Loader
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Tool/Framework/Loader/Interface.php
+END
+IncludePathLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Tool/Framework/Loader/IncludePathLoader.php
+END
+BasicLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Tool/Framework/Loader/BasicLoader.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Tool/Framework/Loader/Abstract.php
+END

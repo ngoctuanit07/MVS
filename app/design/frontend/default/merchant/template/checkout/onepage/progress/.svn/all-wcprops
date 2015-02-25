@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/checkout/onepage/progress
+END
+payment.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/checkout/onepage/progress/payment.phtml
+END
+billing.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/checkout/onepage/progress/billing.phtml
+END
+shipping.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/checkout/onepage/progress/shipping.phtml
+END
+shipping_method.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/checkout/onepage/progress/shipping_method.phtml
+END

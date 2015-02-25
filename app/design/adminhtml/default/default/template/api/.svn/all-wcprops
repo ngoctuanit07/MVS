@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api
+END
+roleinfo.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/roleinfo.phtml
+END
+rolesedit.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/rolesedit.phtml
+END
+users.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/users.phtml
+END
+userinfo.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/userinfo.phtml
+END
+usernroles.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/usernroles.phtml
+END
+rolesusers.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/rolesusers.phtml
+END
+user_roles_grid_js.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/user_roles_grid_js.phtml
+END
+roles.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/roles.phtml
+END
+role_users_grid_js.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/role_users_grid_js.phtml
+END
+userroles.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/adminhtml/default/default/template/api/userroles.phtml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/reports
+END
+product_viewed.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/reports/product_viewed.phtml
+END
+home_product_viewed.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/reports/home_product_viewed.phtml
+END
+home_product_compared.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/reports/home_product_compared.phtml
+END
+product_compared.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/usvn/public/svn/eshoppingmall/!svn/ver/50/trunk/app/design/frontend/default/merchant/template/reports/product_compared.phtml
+END

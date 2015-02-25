@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Options/Type
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Options/Type/File.php
+END
+Select.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Options/Type/Select.php
+END
+Text.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Options/Type/Text.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Options/Type/Date.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Options/Type/Abstract.php
+END

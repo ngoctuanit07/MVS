@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source
+END
+Type.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/Type.php
+END
+Pickup.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/Pickup.php
+END
+DestType.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/DestType.php
+END
+Freemethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/Freemethod.php
+END
+OriginShipment.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/OriginShipment.php
+END
+Method.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/Method.php
+END
+Container.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/Container.php
+END
+Mode.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/Mode.php
+END
+Unitofmeasure.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups/Source/Unitofmeasure.php
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/388/trunk/app/design/frontend/base/default/template/catalog/product
+END
+listall.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/368/trunk/app/design/frontend/base/default/template/catalog/product/listall.phtml
+END
+view.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/279/trunk/app/design/frontend/base/default/template/catalog/product/view.phtml
+END
+price_msrp_item.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/price_msrp_item.phtml
+END
+price.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/price.phtml
+END
+price_msrp.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/price_msrp.phtml
+END
+price_msrp_noform.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/price_msrp_noform.phtml
+END
+price_msrp_rss.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/price_msrp_rss.phtml
+END
+list.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/usvn/public/svn/eshoppingmall/!svn/ver/47/trunk/app/design/frontend/base/default/template/catalog/product/list.phtml
+END
+new.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/new.phtml
+END
+gallery.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/base/default/template/catalog/product/gallery.phtml
+END

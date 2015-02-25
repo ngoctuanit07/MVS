@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien
+END
+Pear.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Pear.php
+END
+Profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Profiler.php
+END
+Event.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Event.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Image.php
+END
+Crypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Crypt.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Date.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Exception.php
+END
+Object.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Object.php
+END
+Convert.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Convert.php
+END
+Debug.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Debug.php
+END
+Autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Autoload.php
+END

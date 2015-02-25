@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Item/Column
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Item/Column/Image.php
+END
+Comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Item/Column/Comment.php
+END
+Cart.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Item/Column/Cart.php
+END
+Remove.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Wishlist/Block/Customer/Wishlist/Item/Column/Remove.php
+END

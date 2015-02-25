@@ -1,0 +1,80 @@
+10
+
+dir
+4
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/code/core/Mage/Oauth
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+Block
+dir
+
+Exception.php
+file
+
+
+
+
+2014-05-01T06:16:06.000000Z
+0e7333244c5f7efeafcab95e3102a130
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1155
+
+Helper
+dir
+
+Model
+dir
+
+controllers
+dir
+
+etc
+dir
+
+sql
+dir
+

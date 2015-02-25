@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Customer/Model/Resource/Address/Attribute/Backend
+END
+Street.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Customer/Model/Resource/Address/Attribute/Backend/Street.php
+END
+Region.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/code/core/Mage/Customer/Model/Resource/Address/Attribute/Backend/Region.php
+END

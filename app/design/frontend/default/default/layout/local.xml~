@@ -1,0 +1,16 @@
+<layout version="0.1.0">
+    <!--add link to the customer panel-->
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink" translate="label" module="customer">
+                <name>custom page</name>
+                <!--Customer Block/AccountpageController.php-->
+                <path>customer/accountpage/</path>
+                <label>Store Details</label>
+            </action>
+        </reference>
+    </customer_account>
+
+</layout>
+
+

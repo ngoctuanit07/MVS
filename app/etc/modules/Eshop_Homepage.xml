@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Eshop_Homepage>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Eshop_Homepage>
+  </modules>
+</config>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Exception
+END
+NotEnoughFreeSpace.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Exception/NotEnoughFreeSpace.php
+END
+FtpValidationFailed.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Exception/FtpValidationFailed.php
+END
+FtpConnectionFailed.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Exception/FtpConnectionFailed.php
+END
+CantLoadSnapshot.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Exception/CantLoadSnapshot.php
+END
+NotEnoughPermissions.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/lib/Mage/Backup/Exception/NotEnoughPermissions.php
+END

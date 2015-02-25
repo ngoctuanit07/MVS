@@ -1,0 +1,12 @@
+ <div class="banners">
+      <div class="banners-scroll">
+           <ul>
+               <li><a href="#"><img title="Banner 1" src="images/tvs_1.jpg" alt="Banner 1" /></a></li>
+                <li><a href="#"><img title="Banner 2" src="images/computers_1.jpg" alt="Banner 2" /></a></li>
+                <li><a href="#"><img title="Banner 3" src="images/cams.jpg" alt="Banner 3" /></a></li>
+                <li><a href="#"><img title="Banner 2" src="images/computers_1.jpg" alt="Banner 2" /></a></li>
+                <li><a href="#"><img title="Banner 3" src="images/cams.jpg" alt="Banner 3" /></a></li>
+            </ul>
+           </div>
+         </div>
+<div class="clear"></div>

@@ -1,0 +1,130 @@
+<?php
+$website_id= Mage::app()->getWebsite()->getId();
+$collection = Mage::getModel("logo/logo")->getCollection()->addFilter('website',$website_id); 
+$logodata = end($collection->getData());
+if (empty($logodata))
+{
+$collection = Mage::getModel("logo/logo")->getCollection()->addFilter('website',"1"); 
+$logodata = end($collection->getData());
+}
+$status = false;
+$status = Mage::getSingleton( 'customer/session' )->isLoggedIn();
+
+$storename = Mage::app()->getWebsite()->getName();
+
+$page = Mage::app()->getFrontController()->getRequest()->getRouteName();
+if ($page == 'cms'):
+    $ishome = Mage::getSingleton('cms/page')->getIdentifier();
+    endif;
+?>
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+
+
+  <div id="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header-top-right">
+            <div class="header-top-dropdowns pull-right">
+              <div class="btn-group dropdown-money">
+               <?php if($status){ ?> <button type="button" class="btn btn-custom dropdown-toggle"> <span class="hide-for-xs"><?php echo $this->__('My Account')?></span><?php }?><span class="hide-for-lg">$</span> </button>
+						<?php echo $this->getChildHtml('topLinks') ?>
+				</div>
+              <!-- End .btn-group -->
+              <div class="btn-group dropdown-language">
+                <?php echo $this->getChildHtml('store_language') ?>
+              </div>
+              <!-- End .btn-group -->
+            </div>
+            <!-- End .header-top-dropdowns -->
+            <div class="header-text-container pull-right">
+            <?php if ($status){?>
+              <p class="header-text"><?php echo $this->getChildHtml('welcome') ?></p>
+              <?php } else {?>
+              <p class="header-link"><a href="<?php echo Mage::helper('customer')->getLoginUrl(); ?>">login</a>&nbsp;or&nbsp;<a href="<?php echo $this->getUrl('customer/account/create/')?>">create an account</a></p>
+              <?php } ?>
+            </div>
+            <!-- End .pull-right -->
+          </div>
+          <!-- End .header-top-right -->
+        </div>
+        <!-- End .col-md-12 -->
+      </div>
+      <!-- End .row -->
+    </div>
+    <!-- End .container -->
+  </div>
+  <!-- End #header-top -->
+  <div id="inner-header">
+    <div class="container">
+      <div class="row">
+        
+      
+      </div>
+      <!-- End .row -->
+    </div>
+    <!-- End .container -->
+    <div id="main-nav-container">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12 logo-container">
+        <a href="http://demo.a3logics.com/eshoppingmall"><h1><img src="http://demo.a3logics.com/eshoppingmall/skin/frontend/default/green/images/eshoplogo.png" class="eshoplogo"></h1>
+          </h1></a>
+          <h1 class="logo clearfix"> <span><?php echo $storename ?></span> <a href="<?php echo $this->getUrl('')?>" title="<?php echo $storename ?>"><img src="<?php echo  Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) ."$logodata[image]";?>" alt="<?php echo $storename ?>" width="238" height="76"></a> 
+          
+          
+        </div>
+          <div class="col-md-9 clearfix">
+           <div id="quick-access">
+           <?php echo $this->getLayout()->createBlock('homepage/index')->setTemplate('homepage/merchant_cart.phtml')->toHtml(); ?>
+			<?php echo $this->getChildHtml('topSearch') ?>
+            </div>
+                       <?php echo $this->getLayout()->createBlock('homepage/index')->setTemplate('homepage/merchant_menu.phtml')->toHtml(); ?>
+            
+            <!-- End #quick-access -->
+
+          </div>
+          <!-- End .col-md-12 -->
+        </div>
+        <!-- End .row -->
+      </div>
+      <!-- End .container -->
+    </div>
+    <!-- End #nav -->
+  </div>
+  <!-- End #inner-header -->
+				   <?php if ($ishome.trim()=="home_merchant")
+                   {
+                   ?>
+                    <?php echo $this->getLayout()->createBlock('homepage/index')->setTemplate('homepage/merchant_slider.phtml')->toHtml(); 
+                   } ?>
+                    
+

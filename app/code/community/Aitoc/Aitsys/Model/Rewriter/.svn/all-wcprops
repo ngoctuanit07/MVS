@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter
+END
+Observer.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Observer.php
+END
+Merge.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Merge.php
+END
+Class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Class.php
+END
+Inheritance.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Inheritance.php
+END
+Conflict.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Conflict.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Abstract.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Config.php
+END
+MageConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/MageConfig.php
+END
+Autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/community/Aitoc/Aitsys/Model/Rewriter/Autoload.php
+END

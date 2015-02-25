@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model
+END
+Role.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Role.php
+END
+Observer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Observer.php
+END
+Advancedrole.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Advancedrole.php
+END
+Approvecategory.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Approvecategory.php
+END
+Notification.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Notification.php
+END
+Approve.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/usvn/public/svn/eshoppingmall/!svn/ver/9/trunk/app/code/local/Aitoc/Aitpermissions/Model/Approve.php
+END

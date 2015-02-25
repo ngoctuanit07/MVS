@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/controllers/Adminhtml
+END
+CodeController.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/controllers/Adminhtml/CodeController.php
+END
+ReportController.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/controllers/Adminhtml/ReportController.php
+END
+RulesController.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/controllers/Adminhtml/RulesController.php
+END
+CreditController.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/usvn/public/svn/eshoppingmall/!svn/ver/45/trunk/app/code/local/MageWorx/CustomerCredit/controllers/Adminhtml/CreditController.php
+END

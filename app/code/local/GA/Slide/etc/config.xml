@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <GA_Slide>
+            <version>1.0.3</version>
+        </GA_Slide>
+    </modules>
+    <frontend>
+        <routers>
+            <slide>
+                <use>standard</use>
+                <args>
+                    <module>GA_Slide</module>
+                    <frontName>slide</frontName>
+                </args>
+            </slide>
+        </routers>
+        <layout>
+            <updates>
+                <slide>
+                    <file>slide.xml</file>
+                </slide>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+			<slide>
+				<use>admin</use>
+				<args>
+					<module>GA_Slide</module>
+					<frontName>slide</frontName>
+				</args>
+			</slide>
+        </routers>
+    </admin>
+    <adminhtml>
+		<menu>
+			<slide module="slide">
+				<title>Slider</title>
+				<sort_order>71</sort_order>               
+				<children>
+					<items module="slide">
+						<title>Manage Slider Items</title>
+						<sort_order>0</sort_order>
+						<action>slide/adminhtml_slide</action>
+					</items>
+				</children>
+			</slide>
+		</menu>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<Slide>
+							<title>Slide Module</title>
+							<sort_order>10</sort_order>
+						</Slide>
+						<system>
+							<children>
+								<config>
+									<children>
+										<slide translate="title" module="slide"> 
+											<title>Slide Settings</title>
+											<sort_order>50</sort_order>
+										</slide>
+									</children>							
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		
+		<layout>
+			<updates>
+				<slide>
+					<file>slide.xml</file>
+				</slide>
+			</updates>
+		</layout>
+    </adminhtml>   
+    <global>
+        <models>
+            <slide>
+                <class>GA_Slide_Model</class>
+                <resourceModel>slide_mysql4</resourceModel>
+            </slide>
+            <slide_mysql4>
+                <class>GA_Slide_Model_Mysql4</class>
+                <entities>
+                    <slide>
+                        <table>slide</table>
+                    </slide>
+                </entities>
+            </slide_mysql4>
+        </models>
+        <resources>
+            <slide_setup>
+                <setup>
+                    <module>GA_Slide</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </slide_setup>
+            <slide_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </slide_write>
+            <slide_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </slide_read>
+        </resources>
+        <blocks>
+            <slide>
+                <class>GA_Slide_Block</class>
+            </slide>
+        </blocks>
+        <helpers>
+            <slide>
+                <class>GA_Slide_Helper</class>
+            </slide>
+        </helpers>
+    </global>
+	<default>
+	       
+	        <slide>
+	            <defaultconfig>
+	              
+	                <delay>6000</delay>
+	                 <image_width>825</image_width>
+					 <image_height>200</image_height>
+	                 
+	            </defaultconfig>
+	        </slide>
+	    </default>
+</config>

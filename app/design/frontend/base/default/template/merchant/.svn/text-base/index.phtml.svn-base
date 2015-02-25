@@ -1,0 +1,383 @@
+<?php $is_renew = $_GET['renew']; ?>
+<script type="text/javascript">
+var emailok = false;
+var storeok = false;
+var baseUrl = '<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>';
+$jq( document ).ready(function() {
+	$jq("#store_alias").blur(function(){
+		var storea =$jq("#store_alias").val();
+		var splchar = new RegExp("^[a-zA-Z0-9.]*$");
+		var dotcheck = new RegExp("/^\\.[a-zA-Z]+$/u");
+		var defaultfolders =  new Array("app","downloader","errors","includes","js","lib","media","pkginfo","shell", "skin","var","custom_api");
+			if(storea =="")
+			{
+				return false;
+			}
+		
+			if(storea.length < 3 ||!splchar.test(storea)|| !isNaN(+storea.charAt(0)) || $jq.inArray( storea , defaultfolders ) != -1 || storea.indexOf('.') != -1 )
+			{
+				 $jq("#storeInfo").html("<font color='red'>Store Alias invalid </font>");
+				 return false;
+			}
+			
+			else
+			{
+			$jq.ajax({
+	            url: baseUrl +"checkuser.php" ,
+	            type: 'POST',
+	            async: false,
+	            data: 'store_alias=' + $jq("#store_alias").val(),
+	            success: function(data) 
+	            {
+				if(data.trim() != "0")
+		         {
+		                 storeok = false;
+		                 $jq("#storeInfo").html("<font color='red'>This store alias is already registered with us, please enter another one</font>");
+		         }
+		         else
+		         {
+		                 storeok = true;
+		                 $jq("#storeInfo").html("<font color='green'>Store Alias available</font>");
+		         }
+	            }
+	       });
+			}
+		});
+	});
+
+		$jq( document ).ready(function() {
+		$jq("#email").blur(function(){
+		if($jq("#email").val()=='')
+		{
+			return false;
+		}
+		else
+		{
+			$jq.ajax({
+            url: baseUrl +"checkuser.php",
+            type: 'POST',
+            async: false,
+            data: 'email=' + $jq("#email").val(),
+            success: function(data) {
+			if(data.trim() != "0")
+	         {
+	                 emailok = false;
+	                 $jq("#emailInfo").html("<font color='red'>There is already an account with this email address. If you are sure that it is your email address, <a href='<?php echo Mage::getUrl('customer/account/forgotpassword') ?>'>click here</a> to get your password and access your account.</font>");
+	         }
+	         else
+	         {
+	                 emailok = true;
+	                 $jq("#emailInfo").html("<font color='green'>Email available</font>");
+	         }
+            }
+       });
+		}
+	});
+});
+
+
+</script>
+<?php
+$category = Mage::getModel('catalog/category');
+$category->load(2);
+$childrenString = $category->getChildren();
+$children = explode(',',$childrenString);
+$categoryOptions='';
+foreach($children as $c)
+{
+	//$catname= strtolower($category->load($c)->getName());
+	//$catname = preg_replace("/[\s_]/", "-", $catname);
+	$catname= $category->load($c)->getName();
+	$categoryOptions.= '<option value="' .$catname. '">' . $category->load($c)->getName() . '</option>' . "\n";
+} ?>
+<html>
+<head>
+<title>Merchant Registration Form</title>
+
+</head>
+
+<body>
+<?php if(isset($_SESSION[core][errmsg])){ ?>
+<div style="color: red;"><?php echo $_SESSION[core][errmsg];  ?></div>
+<?php }
+unset($_SESSION[core][errmsg]);
+$status = Mage::getSingleton( 'customer/session' )->isLoggedIn();
+$customer = Mage::getSingleton('customer/session')->getCustomer();
+$email = $customer->getEmail();
+if ($status)
+{
+	
+	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+	$select = $connection->select()
+	->from ('merchant', array('*'))
+	->where ("email='$email' or email like '$email,%' or email like '%,$email,%' or email like '%,$email%' ");
+	$rowsArray = $connection->fetchAll($select);
+	$merchnatid = $rowsArray[0]['id'];
+	
+//merchant product id
+	$connection = Mage::getSingleton('core/resource')->getConnection('core_read');	
+	$select = $connection->select()
+	->from ('merchant_plan_info', array('*'))
+	->where ("merchant_id=?","$merchnatid");
+	$merchantinfo = $connection->fetchAll($select);
+	$_product = Mage::getModel('catalog/product')->load($merchantinfo[0]['plan_id']);
+ 	$planprice = $_product->getPrice();
+
+}
+?>
+
+<?php Mage::getSingleton('checkout/cart')->truncate(); ?>
+
+<div class="account-create">
+<div class="page-title">
+<h1>Create a Merchant Account</h1>
+</div>
+<form method="post"
+	action="<?php echo Mage::getUrl('merchant/index/save')?>"
+	id="merchant-reg" name="merchant-reg">
+<div class="fieldset">
+<h2 class="legend"><?php echo $this->__('Store Information');?></h2>
+<ul class="form-list">
+<?php
+//if loggedin run a update query
+$status = Mage::getSingleton( 'customer/session' )->isLoggedIn();
+$customer = Mage::getSingleton('customer/session')->getCustomer();
+$email = $customer->getEmail();
+if($status)
+{?>
+<script type="text/javascript">
+var emailok = true;
+var storeok = true;
+</script>
+	<li class="fields">
+	<div class="field">
+	<div class="input-box"><input type="hidden" name="store_name"
+		value="<?php echo $rowsArray[0]['store_name']; ?>" id="store_name"
+		class=" " /><span id="msgbox"></span></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+	<li class="fields">
+	<div class="field">
+	<div class="input-box"><input type="hidden" name="store_alias"
+		disabled="disabled"
+		value="<?php echo $rowsArray[0]['store_alias']; ?>" id="store_aliasl" />
+	</div>
+	</div>
+	</li>
+
+	<li class="fields">
+	<div class="field">
+	<div class="input-box"><input type="hidden" name="emaill" id="emaill"
+		disabled="disabled" value="<?php echo $email ?>" /></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+
+	<li class="fields">
+	<div class="field">
+	<div class="input-box"><input type="hidden"
+		value="<?php echo $rowsArray[0]['business_category'];?>" /></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+	<?php if (isset($is_renew)) {?>
+	<li class="fields">
+	<div id="currentplan"><span><?php echo $this->__('Current Plan : ')?></span>
+	<div class="input-box" ><input type="radio" checked name="current_plan" value="<?php echo $_product->getEntityId(); ?>"><?php echo $_product->getName() ." for ". Mage::helper('core')->currency($_product->getPrice()); ?><br></div>
+	</div>
+	</li>
+	<?php Mage::getModel('customer/session')->setrenewplan(TRUE);
+	 } else {?>	
+	<li class="fields">
+	<div id="currentplan"><span><?php echo $this->__('You have subscribed to : ')?></span>
+	<span style="color: red"><?php echo $_product->getName(); ?></span>
+	</div>
+	</li><?php } ?>
+	<div style="clear: both"></div>
+<?php if (!isset($is_renew)) {?>
+	<li class="fields">
+	<div class="field"><label for="merchant_plan" class="required"><em>*</em><?php echo $this->__('You can Upgrade to') ?></label>
+	<div class="input-box">
+<?php 
+//GET PLAN PRODUCTS FROM BACKEND
+$category = Mage::getModel('catalog/category')->load($store_cat);
+$_productCollection = Mage::getResourceModel('catalog/product_collection')
+->setStoreId(1)
+->addAttributeToSelect('*')
+->addAttributeToSelect('price')
+->addAttributeToSelect('entity_id')
+->addAttributeToSelect('name')
+->addAttributeToSelect('plan_duration')
+->addAttributeToSelect('max_sku')
+->setOrder('price', 'ASC')
+->addAttributeToFilter('price', array('gt' => "$planprice"))
+->addAttributeToFilter('status', array('eq' => Mage_Catalog_Model_Product_Status::STATUS_ENABLED))
+->addAttributeToFilter('plan', 5 ,'left');
+
+Mage::getModel('customer/session')->setUpdateplan(TRUE);
+if (count($_productCollection) > 0)
+{
+?>  
+<select name="upgrade_merchant_plan" id="merchant_plan"
+		class="required-entry input-text">
+		<?php foreach ($_productCollection as $_product){
+			$_prosplprice =  $_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $_product->getSku());
+			?>
+		<option value="<?php echo $_product->getEntityId();?>"><?php echo $_prosplprice->getName();?>
+		for <?php echo Mage::helper('core')->currency($_product->getPrice());?></option>
+		<?php } ?>
+</select>
+<?php }else {
+	$disablecheckout=TRUE;
+	echo $this->__('You are already subscribed to Platinum plan, no more plan to upgrade.');
+}?>
+</div>
+</div>
+<?php } ?>
+	
+	</li>
+	<div style="clear: both"></div>
+	<li class="fields">
+	<div class="field">
+	<div class="input-box"><input type="hidden" name="owner_company_name"
+		disabled="disabled" id="owner_company_name"
+		value="<?php echo $rowsArray[0]['owner_company_name'];?>" /></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+	<li class="fields">
+	<div class="field">
+	<div class="input-box"><input type="hidden" id="registration_no"
+		disabled="disabled"
+		value="<?php echo $rowsArray[0]['registration_no'];?>"
+		name="registration_no" /></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+	<?php
+	
+}
+else
+{
+	?>
+	<li class="fields">
+	<div class="field"><label for="store_name" class="required"><em>*</em><?php echo $this->__('Store Name') ?></label>
+	<div class="input-box"><input type="text" name="store_name"
+		id="store_name" class="required-entry input-text" /><span id="msgbox"></span>
+	</div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+
+	<li class="fields">
+	<div class="field"><label for="store_alias" class="required"><em>*</em><?php echo $this->__('Store Alias') ?></label>
+	<div class="input-box"><input type="text" name="store_alias"
+		id="store_alias" class="required-entry input-text" maxlength="15" /></div>
+	<div id="storeInfo" class="error-show"></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+
+	<li class="fields">
+	<div class="field"><label for="email" class="required"><em>*</em><?php echo $this->__('Email') ?></label>
+	<div class="input-box"><input type="text" name="email" id="email"
+		class="required-entry validate-email input-text" /></div>
+	<div id="emailInfo" class="error-show"></div>
+	</div>
+	</li>
+
+	<div style="clear: both"></div>
+
+	<li class="fields">
+	<div class="field"><label for="business_category" class="required"><em>*</em><?php echo $this->__('Business Category') ?></label>
+	<div class="input-box"><select name="business_category"
+		id="business_category" class="required-entry input-select">
+		<?php echo $categoryOptions ?>
+	</select></div>
+	</div>
+	</li>
+
+	<div style="clear: both"></div>
+
+	<li class="fields">
+	<div class="field"><label for="merchant_plan" class="required"><em>*</em><?php echo $this->__('Merchant Plan') ?></label>
+	<div class="input-box"><?php 
+//GET PLAN PRODUCTS FROM BACKEND
+$category = Mage::getModel('catalog/category')->load($store_cat);
+$_productCollection = Mage::getResourceModel('catalog/product_collection')
+->setStoreId(1)
+->addAttributeToSelect('*')
+->addAttributeToSelect('price')
+->addAttributeToSelect('entity_id')
+->addAttributeToSelect('name')
+->addAttributeToSelect('plan_duration')
+->addAttributeToSelect('max_sku')
+->setOrder('price', 'ASC')
+->addAttributeToFilter('status', array('eq' => Mage_Catalog_Model_Product_Status::STATUS_ENABLED))
+->addAttributeToFilter('plan', 5 ,'left');
+?>  
+<select name="merchant_plan" id="merchant_plan"
+		class="required-entry input-text">
+		<?php foreach ($_productCollection as $_product){
+			$_prosplprice =  $_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $_product->getSku());
+			?>
+		<option value="<?php echo $_product->getEntityId();?>"><?php echo $_prosplprice->getName();?>
+		for <?php echo Mage::helper('core')->currency($_product->getPrice());?></option>
+		<?php } ?>
+</select></div>
+	</div>
+	</li>
+
+	<div style="clear: both"></div>
+
+
+	<li class="fields">
+	<div class="field"><label for="owner_company_name"><?php echo $this->__('Owner Company Name') ?></label>
+	<div class="input-box"><input class="input-text" type="text"
+		name="owner_company_name" id="owner_company_name" /></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+	<li class="fields">
+	<div class="field"><label for="registration_no"> <?php echo $this->__('Registration Number') ?></label>
+	<div class="input-box"><input class="input-text" type="text"
+		id="registration_no" name="registration_no" /></div>
+	</div>
+	</li>
+	<div style="clear: both"></div>
+	<?php }?>
+</ul>
+</div>
+<div class="buttons-set">
+<p class="required"><em style="color: Red;">*</em> <?php echo $this->__('Required Fields') ?></p>
+<?php if (!$disablecheckout){?>
+<button class="button" title="Proceed to checkout" type="submit"><span>
+<span><?php echo $this->__('Proceed to Checkout')?></span> </span></button>
+<?php }?>
+</div>
+</form>
+</div>
+</body>
+<script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('merchant-reg', true)
+    //]]>
+    </script>
+</html>
+<script type="text/javascript">
+$jq("#merchant-reg").submit(function(e){
+	if(!storeok)
+	{
+	        $jq("#store_alias").focus();
+	        e.preventDefault();
+	}
+	 if(!emailok)
+    {
+        
+        
+         $jq("#email").focus();
+         e.preventDefault();
+    }
+});
+</script>

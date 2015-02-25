@@ -1,0 +1,45 @@
+<?php 
+$db = Mage::getSingleton('core/resource')->getConnection('core_write');
+$db->exec("SET @@session.wait_timeout = 1200");
+
+//date_default_timezone_set ('Asia/Calcutta');
+$date=date("Y-m-d H:i:s");
+
+//$query="select a.*,b.*,a.event_name as event_name1 from event as a left join eventproduct as b on a.id=b.event_id where a.event_method='0' and b.status='0' and '".$date."' between `publish_start_date` and `publish_end_date` order by a.position";
+$query="select a.event_name,b.sku from event as a left join eventproduct as b on a.id=b.event_id where a.event_method='0' and b.status='0' and '".$date."' between a.`publish_start_date` and a.`publish_end_date` order by a.position";
+
+$stmt=$db->query($query);
+$stmt->execute();
+$res = $stmt->fetchAll();
+
+?>
+
+ <div class="banners">
+      <div class="banners-scroll">
+           <ul>
+           		<?php foreach($res as $key=>$value) { 
+						$sku=$value['sku'];
+						$event_name=$value['event_name'];
+        		   		$_product = Mage::getModel('catalog/product')->loadByAttribute('sku', $sku);
+           				if($_product)
+           				{
+							$product_name=$_product->getName();
+	           				$arr_web=$_product->getWebsiteIds();
+							$website_id = $arr_web[0];
+							$website = Mage::app()->getWebsite($website_id);
+							$default_store = $website->getDefaultGroup()->getDefaultStore()->getId();
+							$default_store = $website->getDefaultStore();
+							$url_obj = new Mage_Core_Model_Url();
+							$default_store_path = $url_obj->getBaseUrl(array('_store'=> $default_store->getCode()));
+					        $product_url=$default_store_path.$_product->getUrlPath();
+					        $product_image=$this->helper('catalog/image')->init($_product, 'image')->resize(198,140);
+           		?>
+           	    <li><a href="<?php echo $product_url;?>"><img title="<?php echo $product_name;?>" src="<?php echo $product_image;?>" alt="<?php echo $product_name;?>" >
+                <h1><?php echo $event_name; ?></h1>
+                </a></li>
+            	<?php	}
+           		     }?>  
+            </ul>
+           </div>
+         </div>
+<div class="clear"></div>

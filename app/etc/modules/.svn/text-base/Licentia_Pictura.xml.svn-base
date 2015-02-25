@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Licentia_Pictura>
+            <active>true</active>
+            <codePool>community</codePool>
+            <version>1.0.0.0</version>
+        </Licentia_Pictura>
+    </modules>
+</config>

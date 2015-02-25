@@ -1,0 +1,61 @@
+<?php
+$currency_symbol = Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol();
+//$my_product = Mage::getModel('catalog/product')->load($item->getId())->getProductUrl();
+//$my_product_url = $my_product->getProductUrl();
+$quote = Mage::getSingleton('checkout/session')->getQuote();
+$cartItems = $quote->getAllVisibleItems();
+$totalItems = Mage::getModel('checkout/cart')->getQuote()->getItemsCount();  
+// Total Quantity added in cart  
+$totalQuantity = Mage::getModel('checkout/cart')->getQuote()->getItemsQty();  
+// Sub Total for item added in cart  
+$subTotal = Mage::getModel('checkout/cart')->getQuote()->getSubtotal();  
+//grand total for for item added in cart  
+$grandTotal = Mage::getModel('checkout/cart')->getQuote()->getGrandTotal();
+ ?>
+              <div class="dropdown-cart-menu-container pull-right">
+                <div class="btn-group dropdown-cart">
+                <?php if(!isset($totalQuantity)) { ?>
+                
+                  <button type="button" class="btn btn-custom dropdown-toggle"> <span class="cart-menu-icon"></span> 0 <?php echo $this->__('item(s)')?> <span class="drop-price">- $0.00</span> </button>
+                  <?php } else { ?>
+                  <button type="button" class="btn btn-custom dropdown-toggle"> <span class="cart-menu-icon"></span> <?php echo  floatval($totalQuantity); ?> <?php echo $this->__('items')?> <span class="drop-price">- <?php echo "$currency_symbol".floatval($grandTotal); ?></span> </button>
+                  <?php } ?>
+                  <div class="dropdown-menu dropdown-cart-menu pull-right clearfix" role="menu">
+                 <?php  if(!empty($cartItems))
+{?>
+                    <p class="dropdown-cart-description"><?php echo $this->__('Recently added item(s).')?></p>
+                    <ul class="dropdown-cart-product-list">
+         				<?php              
+                        foreach ($cartItems as $item)
+        				{ ?>
+        				<li class="item clearfix">
+        				<a href="<?php echo Mage::getUrl( 'checkout/cart/configure', array( 'id' => $item->getId() ) ); ?>" title="Edit item" class="edit-item"><i class="fa fa-pencil"></i></a>
+        				<a href="<?php echo Mage::getUrl( 'checkout/cart/delete', array( 'id' => $item->getId() ) );?>" title="Delete item" class="delete-item"><i class="fa fa-times"></i></a> 
+                        <figure> <a href="<?php echo Mage::getModel('catalog/product')->loadByAttribute('sku',$item->getSku())->getProductUrl();?>"><img src="<?php echo Mage::helper('catalog/image')->init($item->getProduct(), 'thumbnail')?>" ></a> </figure>
+                        <div class="dropdown-cart-details">
+                          <p class="item-name"> <a href="#"><?php echo $item->getName()?></a> </p>
+                          <p><?php echo $item->getQty()?> x<span class="item-price"><?php echo "$currency_symbol".floatval($item->getPrice())?></span> </p>
+                        </div>
+                        <!-- End .dropdown-cart-details -->
+                      </li>
+                      <?php }?>
+                    </ul>
+                    <ul class="dropdown-cart-total">
+                      <li><span class="dropdown-cart-total-title"><?php echo $this->__('Total:')?></span><?php echo "$currency_symbol". floatval($subTotal); ?>  
+                    </ul>
+                    <!-- .dropdown-cart-total -->
+                    <div class="dropdown-cart-action">
+                      <p><a href=" <?php echo $this->getUrl('checkout/cart')?> " class="btn btn-custom-2 btn-block"><?php echo $this->__('Cart')?></a></p>
+                      <p><a href="<?php echo Mage::helper('checkout/url')->getCheckoutUrl(); ?>" class="btn btn-custom btn-block"><?php echo $this->__('Checkout')?></a></p>
+                    </div>
+                    <!-- End .dropdown-cart-action -->
+                    <?php } else {?>
+      <p class="dropdown-cart-description"><?php echo $this->__('There are no item in your cart')?></p>
+      <?php }?>    
+                  </div>
+                  <!-- End .dropdown-cart -->
+                </div>
+                <!-- End .btn-group -->
+              </div>
+              <!-- End .dropdown-cart-menu-container -->
+           

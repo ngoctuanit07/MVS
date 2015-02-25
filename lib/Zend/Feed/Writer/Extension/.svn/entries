@@ -1,0 +1,117 @@
+10
+
+dir
+2
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/lib/Zend/Feed/Writer/Extension
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+Atom
+dir
+
+Content
+dir
+
+DublinCore
+dir
+
+ITunes
+dir
+
+RendererAbstract.php
+file
+
+
+
+
+2014-05-01T06:16:56.000000Z
+9dc8929c8cd8490df484b9e756bf74de
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3937
+
+RendererInterface.php
+file
+
+
+
+
+2014-05-01T06:16:56.000000Z
+c8ec57b4c8f56b014d0c1ef6224eae08
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1663
+
+Slash
+dir
+
+Threading
+dir
+
+WellFormedWeb
+dir
+

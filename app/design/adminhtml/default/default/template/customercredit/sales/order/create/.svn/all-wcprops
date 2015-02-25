@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/usvn/public/svn/eshoppingmall/!svn/ver/46/trunk/app/design/adminhtml/default/default/template/customercredit/sales/order/create
+END
+billing_method_form.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/usvn/public/svn/eshoppingmall/!svn/ver/46/trunk/app/design/adminhtml/default/default/template/customercredit/sales/order/create/billing_method_form.phtml
+END
+totals.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/usvn/public/svn/eshoppingmall/!svn/ver/46/trunk/app/design/adminhtml/default/default/template/customercredit/sales/order/create/totals.phtml
+END

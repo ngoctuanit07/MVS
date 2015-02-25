@@ -1,0 +1,72 @@
+<?php
+
+//customerdata
+$customer = Mage::getSingleton('customer/session')->getCustomer();
+$email = $customer->getEmail();
+$connection = Mage::getSingleton('core/resource')->getConnection('core_read');
+$select = $connection->select()
+->from ('merchant', array('*'))
+->where ("email='$email' or email like '$email,%' or email like '%,$email,%' or email like '%,$email%' ");
+$rowsArray = $connection->fetchAll($select);
+//print_r($rowsArray);
+//get websiteid
+$site = Mage::getResourceModel('core/website_collection')->addFieldToFilter('name', $rowsArray[0]['store_alias']);
+$data=$site->getData();
+
+$website_id=$data[0]['website_id'];
+//getlogo
+$collection = Mage::getModel("logo/logo")->getCollection()->addFilter('website',$website_id);
+$logodata = end($collection->getData());
+if (empty($logodata))
+{
+	//$collection = Mage::getModel("logo/logo")->getCollection()->addFilter('website',"1"); 
+	$logodata[image] = 'logo/logo/eshopred.png';
+}
+//plan expiry date
+$connection = Mage::getSingleton('core/resource')->getConnection('core_read');//get merchant id
+    $select = $connection->select()
+    ->from('merchant_plan_info', 'end_date') // select * from tablename or use array('id','name') selected values
+    ->where('merchant_id=?',$rowsArray[0]['id']);
+    $rowsArray1 = $connection->fetchAll($select);
+	$currentlastdate=  $rowsArray1[0]['end_date'];
+?>
+<div class="page-title">
+<h1>Store Details</h1>
+</div>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+
+<div class="fieldset">
+<ul class="form-list">
+	<li class="fields"><img
+		src="<?php echo  Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) ."$logodata[image]";?>"
+		alt="<?php echo $storename ?>" width="238" height="76"></li>
+	<li class="fields"><span><?php echo $this->__('Store Name : ') ?></span><span><?php echo $rowsArray[0]['store_name']; ?>
+	</span></li>
+	<li class="fields"><span><?php echo $this->__('Store Alias : ') ?></span><span><?php echo $rowsArray[0]['store_alias']; ?></span>
+	</li>
+	<li class="fields"><span><?php echo $this->__('Email : ') ?></span><span><?php echo $email ?></span>
+	</li>
+	<li class="fields"><span><?php echo $this->__('Business Category : ') ?></span><span><?php echo $rowsArray[0]['business_category'];?></span>
+	</li>
+	<li class="fields"><span><?php echo $this->__('Merchant Plan : ') ?></span><span><?php echo $rowsArray[0]['merchant_plan'];?></span>
+	<span><a href="<?php echo Mage::getUrl('merchant')."?renew=1"; ?>"><?php echo $this->__('Renew Plan')?></a></span>
+	<span><?php echo $this->__(' or ')?></span>
+	<span><a href="<?php echo Mage::getUrl('merchant'); ?>"><?php echo $this->__('Upgrade  Plan')?></a></span>
+
+	</li>
+	<li class="fields"><span><?php echo $this->__('Plan End Date : ') ?></span><span><?php echo $currentlastdate;?></span>
+	</li>
+	<li class="fields"><span><?php echo $this->__('Owner Company Name : ') ?></span><span><?php echo $rowsArray[0]['owner_company_name'];?></span>
+	</li>
+	<li class="fields"><span><?php echo $this->__('Registration Number : ') ?></span><span>
+	<?php echo $rowsArray[0]['registration_no'];?></span></li>
+</ul>
+</div>
+
+<div class="buttons-set">
+<p class="back-link"><a
+	href="<?php echo $this->getUrl('customer/account/') ?>"><small>&laquo;
+</small><?php echo $this->__('Back') ?></a></p>
+</div>
+<script type="text/javascript">
+</script>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Io
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Io/Interface.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Io/File.php
+END
+Sftp.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Io/Sftp.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Io/Exception.php
+END
+Ftp.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Io/Ftp.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Varien/Io/Abstract.php
+END

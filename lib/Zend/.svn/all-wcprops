@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Validate.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Session.php
+END
+Oauth.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Oauth.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Version.php
+END
+Locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Locale.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Feed.php
+END
+InfoCard.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/InfoCard.php
+END
+View.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/View.php
+END
+ProgressBar.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/ProgressBar.php
+END
+Ldap.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Ldap.php
+END
+Json.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Json.php
+END
+Markup.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Markup.php
+END
+Auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Auth.php
+END
+Layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Layout.php
+END
+Uri.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Uri.php
+END
+Crypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Crypt.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Date.php
+END
+Pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Pdf.php
+END
+Mime.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Mime.php
+END
+Mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Mail.php
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Filter.php
+END
+Registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Registry.php
+END
+Db.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Db.php
+END
+Barcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Barcode.php
+END
+Memory.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Memory.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Cache.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Config.php
+END
+Form.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Form.php
+END
+Log.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Log.php
+END
+OpenId.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/OpenId.php
+END
+replace_recursive.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/replace_recursive.php
+END
+TimeSync.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/TimeSync.php
+END
+Acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Acl.php
+END
+Translate.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Translate.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Exception.php
+END
+Application.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Application.php
+END
+Dojo.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Dojo.php
+END
+Gdata.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Gdata.php
+END
+Paginator.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Paginator.php
+END
+Currency.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Currency.php
+END
+Queue.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Queue.php
+END
+Serializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Serializer.php
+END
+Loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Loader.php
+END
+Debug.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Debug.php
+END
+Navigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/lib/Zend/Navigation.php
+END

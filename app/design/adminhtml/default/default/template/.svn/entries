@@ -1,0 +1,570 @@
+10
+
+dir
+9
+http://svn.a3.net/usvn/public/svn/eshoppingmall/trunk/app/design/adminhtml/default/default/template
+http://svn.a3.net/usvn/public/svn/eshoppingmall
+
+
+
+2014-05-05T05:09:34.414675Z
+9
+vimalp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+017767d5-8ff5-4916-98da-56954dfa4a97
+
+
+
+
+
+
+
+
+()
+
+access_denied.phtml
+file
+
+
+
+
+2014-05-01T06:15:47.000000Z
+92823795c6d1d3150f90e5af6975087c
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1473
+
+aitcore
+dir
+
+aitinstall
+dir
+
+aitpermissions
+dir
+
+api
+dir
+
+api2
+dir
+
+authorizenet
+dir
+
+backup
+dir
+
+bundle
+dir
+
+captcha
+dir
+
+catalog
+dir
+
+centinel
+dir
+
+cms
+dir
+
+coming.phtml
+file
+
+
+
+
+2014-05-01T06:15:48.000000Z
+d5b559a738546ced442f00df92fe02d7
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1255
+
+compiler
+dir
+
+connect
+dir
+
+currencysymbol
+dir
+
+customer
+dir
+
+customercredit
+dir
+
+dashboard
+dir
+
+directory
+dir
+
+downloadable
+dir
+
+eav
+dir
+
+email
+dir
+
+empty.phtml
+file
+
+
+
+
+2014-05-01T06:15:44.000000Z
+85b5bcbacf33148afa9cb2e291ed9c29
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1695
+
+example.phtml
+file
+
+
+
+
+2014-05-01T06:15:50.000000Z
+fa6ad939de28c77f97c7661b70ae32b6
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18704
+
+forgotpassword.phtml
+file
+
+
+
+
+2014-05-01T06:15:46.000000Z
+9a6bb0557f28c75a8313be2c8344b30b
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4394
+
+formkey.phtml
+file
+
+
+
+
+2014-05-01T06:15:46.000000Z
+668f8c7327ebc6e52e81837e6d59883e
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1097
+
+giftmessage
+dir
+
+googlebase
+dir
+
+importexport
+dir
+
+index
+dir
+
+iwd
+dir
+
+login.phtml
+file
+
+
+
+
+2014-05-01T06:15:45.000000Z
+06e47e38d714b6dcb0d05a4c58498a24
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5093
+
+media
+dir
+
+moneybookers
+dir
+
+newsletter
+dir
+
+notification
+dir
+
+oauth
+dir
+
+overlay_popup.phtml
+file
+
+
+
+
+2014-05-01T06:15:45.000000Z
+23a40353e27d75eb0bbda6175f671796
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2195
+
+page
+dir
+
+page.phtml
+file
+
+
+
+
+2014-05-01T06:15:48.000000Z
+7953efb6d0cb2decb67dfbebf389a751
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3908
+
+pagecache
+dir
+
+paygate
+dir
+
+payment
+dir
+
+paypal
+dir
+
+permissions
+dir
+
+poll
+dir
+
+popup.phtml
+file
+
+
+
+
+2014-05-01T06:15:47.000000Z
+5fccd3a283b7d21c35f367a3974d4947
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3534
+
+promo
+dir
+
+rating
+dir
+
+report
+dir
+
+resetforgottenpassword.phtml
+file
+
+
+
+
+2014-05-01T06:15:47.000000Z
+19e9019c7236f8232d398754be6e0d18
+2014-05-01T05:27:30.743183Z
+2
+vimalp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4966
+
+review
+dir
+
+sales
+dir
+
+store
+dir
+
+system
+dir
+
+tag
+dir
+
+tax
+dir
+
+urlrewrite
+dir
+
+usa
+dir
+
+weee
+dir
+
+widget
+dir
+
+xmlconnect
+dir
+

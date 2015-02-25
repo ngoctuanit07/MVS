@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/usvn/public/svn/eshoppingmall/!svn/ver/7/trunk/downloader
+END
+connect.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/3/trunk/downloader/connect.cfg
+END
+config.ini
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/config.ini
+END
+cache.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/7/trunk/downloader/cache.cfg
+END
+target.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/target.xml
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/favicon.ico
+END
+mage.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/mage.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/index.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/downloader/.htaccess
+END

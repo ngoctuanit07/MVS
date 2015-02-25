@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Licentia Pictura - Banner Management
+ *
+ * NOTICE OF LICENSE
+ * This source file is subject to the European Union Public Licence
+ * It is available through the world-wide-web at this URL:
+ * http://joinup.ec.europa.eu/software/page/eupl/licence-eupl
+ *
+ * @title      Background Management
+ * @category   Marketing
+ * @package    Licentia
+ * @author     Bento Vilas Boas <bento@licentia.pt>
+ * @copyright  Copyright (c) 2014 Licentia - http://licentia.pt
+ * @license    European Union Public Licence
+ */
+-->
+<config>
+    <sections>
+        <pictura translate="label" module="pictura">
+            <label>Pictura - Customer Value</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <config translate="label">
+                    <label>Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <params translate="label comment">
+                            <label>List of possible URL params to start tracking</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Not the expected value, but the var name. ex: utm_campaign</comment>
+                        </params>
+                        <totals translate="label comment">
+                            <label>List Colums totals in reports</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <comment>Reports pages loading may get slower if you have many thousands of customers</comment>
+                        </totals>
+                        <count translate="label comment">
+                            <label>Maximum number of invoices to process per cron job run</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-digits validate-digits-range digits-range-10-100000</validate>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <comment>Minimum of 10</comment>
+                        </count>
+                    </fields>
+                </config>
+            </groups>
+        </pictura>
+    </sections>
+</config>

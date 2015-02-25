@@ -1,0 +1,105 @@
+<?php
+$website_id= Mage::app()->getWebsite()->getId();
+$collection = Mage::getModel("logo/logo")->getCollection()->addFilter('website',$website_id); 
+$slidesdata = end($collection->getData());
+?>
+<?php
+$collection = Mage::getModel("logo/logo")->getCollection()->addFilter('website',1); 
+$slidesdatadefault = end($collection->getData());
+?>
+<?php
+
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+ <div class="top-wrapper">
+	 <div class="quick-access">
+     <div class="fbresp">
+		<ul class="top-links top-block">
+          <li><a href="http://www.facebook.com/eshoppingmall.com.my" target="_blank"><img src="<?php echo $this->getSkinUrl('images/facebook.png')?>" alt="" style=" margin-top:5px;" /> <?php echo $this->__(' Facebook')?></a></li>
+		</ul>
+<?php echo $this->getChildHtml('store_language') ?>
+</div>
+<?php echo $this->getChildHtml('topLinks') ?>
+</div>
+</div>
+
+<div class="header-container">
+    <div class="header">
+        <?php if ($this->getIsHomePage()):?>
+        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo  Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) ."$slidesdata[image]";?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+        <?php else:?>
+        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+        <?php endif?>
+                <div class="toggleDiv">+</div>
+            <?php //echo $this->getChildHtml('topSearch') ?>
+        <!-- <p class="welcome-msg"><?php //echo $this->getChildHtml('welcome') ?> <?php //echo $this->getAdditionalHtml() ?></p> --><!--
+            <div class="block block-cart">
+          <div class="block-title" id="block-title"> <span><?php //echo $this->__('My Cart')?> <small>(<?php //echo Mage::helper('checkout/cart')->getItemsCount(); ?>)</small></span> </div>
+          <div class="block-content">
+            <p class="empty">You have no items in your shopping cart.</p>
+          </div>
+        </div>
+-->
+<?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories = $_helper->getStoreCategories() ?>
+<?php $currentCategory = Mage::registry('current_category') ?>
+         <ul id="hidden-nav">
+			 <?php foreach($_categories as $_category): ?>
+          <li  class="level0 nav-1 first level-top parent"><a href="<?php echo $_helper->getCategoryUrl($_category) ?>" ><span><?php echo $_category->getName() ?></span></a>
+             <?php endforeach; ?>
+            </ul>
+				
+        <?php echo $this->getChildHtml('topContainer'); ?>
+ </div>
+ </div>
+<?php //echo $this->getChildHtml('topMenu') ?>
+<!-- redirect to my cart -->
+<!--<script>
+var url = "<?php //echo Mage::helper('checkout/cart')->getCartUrl();?>";
+$jq(document).ready(function() {
+$jq('#block-title').click(function()
+{
+	window.location.href= url;
+});
+});
+</script>
+-->
+<script>
+$jq(document).ready(function() {
+var errortext = $jq(".error-msg" ).html();
+var successtext = $jq(".success-msg" ).html();
+if ( errortext) {
+$jq.toast(errortext, {sticky: true, type: 'danger'});
+}
+if ( successtext) {
+$jq.toast(successtext, {sticky: true, type: 'success'});
+}
+});
+</script>
+

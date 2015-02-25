@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/default/iphone/template/catalog/product
+END
+view.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/default/iphone/template/catalog/product/view.phtml
+END
+price.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/default/iphone/template/catalog/product/price.phtml
+END
+price_msrp.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/default/iphone/template/catalog/product/price_msrp.phtml
+END
+price_msrp_noform.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/default/iphone/template/catalog/product/price_msrp_noform.phtml
+END
+list.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/default/iphone/template/catalog/product/list.phtml
+END
+gallery.phtml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/usvn/public/svn/eshoppingmall/!svn/ver/2/trunk/app/design/frontend/default/iphone/template/catalog/product/gallery.phtml
+END

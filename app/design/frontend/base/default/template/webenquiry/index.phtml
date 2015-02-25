@@ -1,0 +1,65 @@
+<?php
+$status = false;
+$status = Mage::getSingleton( 'customer/session' )->isLoggedIn();
+
+if($status)
+{
+$customer = Mage::getSingleton('customer/session')->getCustomer();
+$email = $customer->getEmail();
+$fullname = $customer->getName();
+?>
+<?php Mage::app()->getLayout()->getMessagesBlock()->setMessages(Mage::getSingleton('customer/session')->getMessages(true));
+echo $this->getMessagesBlock()->getGroupedHtml(); ?>
+
+
+<div class="account-create">
+<div class="page-title">
+  <h1><?php echo $this->__('Customer Service')?></h1>
+</div>
+<form method="post" action="<?php echo Mage::getUrl('webenquiry/index/save')?>" id="website_enquiry" name="website_enquiry">
+  <div class="fieldset">
+  
+  <h2 class="legend">Customer Service</h2>
+  
+  
+    <fieldset>
+    <ul>
+      <li class="fields">
+        <div class="field">
+          <label for="subject" class="required"><?php echo $this->__('Subject') ?></label>
+          <div class="input-box">
+            <input type="subject" name="subject"  maxlength="50" class="required-entry input-text" style=" margin-right:45%"/>
+          </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="field">
+          <label for="message"  class="required"><?php echo $this->__('Message') ?></label>
+          <div class="input-box">
+            <textarea rows="5" cols="60"  name="message" maxlength="1000" class="required-entry input-text" style=" margin-right:45%"></textarea>
+          </div>
+        </div>
+        <div style="clear:both"></div>
+        <input type="hidden" value ="<?php echo $email ?>" name="email">
+        <input type="hidden" value ="<?php echo $fullname ?>" name="name">
+        <input type="hidden" value ="<?php echo Mage::app()->getWebsite()->getId(); ?>" name="website_id">
+      </li>
+    </ul>
+    </fieldset>
+  </div>
+  <div class="buttons-set">
+    <button class="button" title="Submit" type="submit"><span><span><?php echo $this->__('Send ')?></span></span></button>
+  </div>
+</form>
+</div>
+<?php }
+else
+{
+ $loginlink = Mage::helper('customer')->getLoginUrl();
+  echo $this->__("You must be logged in to view this page  <a href="."$loginlink" .">Click here</a> to login ");
+}
+?>
+<script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('website_enquiry', true)
+    //]]>
+</script>
